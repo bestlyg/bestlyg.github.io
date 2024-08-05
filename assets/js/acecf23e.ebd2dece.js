@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bestlyg_site=self.webpackChunk_bestlyg_site||[]).push([[81903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/web/site/blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bestlyg_site=self.webpackChunk_bestlyg_site||[]).push([[33449],{15083:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/web/site/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/web/site/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
