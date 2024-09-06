@@ -2,32 +2,32 @@
 <html lang="zh-CN" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-leetcode/index" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.4.0">
+<meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">LeetCode | 信韵的小奥特</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https:/bestlyg.com/img/logo.png"><meta data-rh="true" name="twitter:image" content="https:/bestlyg.com/img/logo.png"><meta data-rh="true" property="og:url" content="https:/bestlyg.com/docs/leetcode/"><meta data-rh="true" property="og:locale" content="zh_CN"><meta data-rh="true" name="docusaurus_locale" content="zh-CN"><meta data-rh="true" name="docsearch:language" content="zh-CN"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="LeetCode | 信韵的小奥特"><meta data-rh="true" name="description" content="介绍"><meta data-rh="true" property="og:description" content="介绍"><link data-rh="true" rel="icon" href="/img/logo.ico"><link data-rh="true" rel="canonical" href="https:/bestlyg.com/docs/leetcode/"><link data-rh="true" rel="alternate" href="https:/bestlyg.com/docs/leetcode/" hreflang="zh-CN"><link data-rh="true" rel="alternate" href="https:/bestlyg.com/docs/leetcode/" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="信韵的小奥特 RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="信韵的小奥特 Atom Feed">
 
 
 
 
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.13.24/katex.min.css" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.172ad60f.css">
-<script src="/assets/js/runtime~main.de47e11d.js" defer="defer"></script>
-<script src="/assets/js/main.a2c44371.js" defer="defer"></script>
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.13.24/katex.min.css" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.497137d4.css">
+<script src="/assets/js/runtime~main.c9d99ef9.js" defer="defer"></script>
+<script src="/assets/js/main.2994fed4.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_Z2Yq" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="welcomme to the world of lucky ultraman." class="themedComponent_jhL8 themedComponent--light_eGQp"><img src="/img/logo.png" alt="welcomme to the world of lucky ultraman." class="themedComponent_jhL8 themedComponent--dark_WiuS"></div><b class="navbar__title text--truncate">信韵的小奥特</b></a></div><div class="navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Journal</a><a class="navbar__item navbar__link" href="/blog">Record</a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link" href="/docs/leetcode/">Link</a><ul class="dropdown__menu"><li><a href="//www.bestlyg.com/web/resume" target="_blank" rel="noopener noreferrer" class="dropdown__link">About Me<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_RZxO"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://github.com/bestlyg" target="_blank" rel="noopener noreferrer" class="dropdown__link">GitHub<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_RZxO"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://gitee.com/bestlyg" target="_blank" rel="noopener noreferrer" class="dropdown__link">Gitee<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_RZxO"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://wx.qq.com/" target="_blank" rel="noopener noreferrer" class="dropdown__link">WeChat : bestlyg<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_RZxO"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1057966749&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer" class="dropdown__link">QQ<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_RZxO"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="toggle__d4q colorModeToggle_cdjb"><button class="clean-btn toggleButton_gjdH toggleButtonDisabled_CH3w" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_Ne1b"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_hrXT"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer__wvR"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_InnT"><div class="docsWrapper_BSZg"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton__A_r" type="button"></button><div class="docRoot_STYX"><aside class="theme-doc-sidebar-container docSidebarContainer_pFa_"><div class="sidebarViewport_skL9"><div class="sidebar_stJ0"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_jEHX"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro">日志导航</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/数据结构/">数据结构</a><button aria-label="展开侧边栏分类 &#x27;数据结构&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/算法/">算法</a><button aria-label="展开侧边栏分类 &#x27;算法&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible menu__list-item-collapsible--active"><a class="menu__link menu__link--sublist menu__link--active" aria-current="page" href="/docs/leetcode/">LeetCode</a><button aria-label="折叠侧边栏分类 &#x27;LeetCode&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1-100/两数之和">1-100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1001-1100/网格照明">1001-1100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/101-200/对称二叉树">101-200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1101-1200/分糖果II">1101-1200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1201-1300/丑数III">1201-1300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1301-1400/层数最深叶子节点的和">1301-1400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1401-1500/圆和矩形是否有重叠">1401-1500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1501-1600/子数组和排序后的区间和">1501-1600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1601-1700/最多可达成的换楼请求数目">1601-1700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1701-1800/修改后的最大二进制字符串">1701-1800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1801-1900/积压订单中的订单总数">1801-1900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1901-2000/寻找峰值II">1901-2000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2001-2100/可互换矩形的组数">2001-2100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/201-300/数字范围按位与">201-300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2101-2200/引爆最多的炸弹">2101-2200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2201-2300/将数组和减半的最少操作次数">2201-2300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2301-2400/计算应缴税款总额">2301-2400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2401-2500/出现最频繁的偶数元素">2401-2500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2501-2600/数组中最长的方波">2501-2600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2601-2700/质数减法运算">2601-2700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2701-2800/相等还是不相等">2701-2800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2801-2900/取整购买后的账户余额">2801-2900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2901-3000/元素和最小的山形三元组I">2901-3000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/3001-3100/判断一个数组是否可以变为有序">3001-3100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/301-400/删除无效的括号">301-400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/3101-3200/交替子数组计数">3101-3200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/401-500/二进制手表">401-500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/501-600/二叉搜索树中的众数">501-600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/601-700/种花问题">601-700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/701-800/二叉搜索树中的插入操作">701-800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/801-900/使序列递增的最小交换次数">801-900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/901-1000/股票价格跨度">901-1000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/LCP/LCP06.拿硬币">LCP</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/LCR/LCR003.比特位计数">LCR</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/面试题/面试题01.02.判定是否互为字符重排">面试题</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/作品集/UI">作品集</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/应用/">应用</a><button aria-label="展开侧边栏分类 &#x27;应用&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/英语/听力攻略">  英语</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/软考/信息系统项目管理师/">软考</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_pD0p"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_p_Py"><div class="docItemContainer_NgLJ"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_IJTk" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_v5yC"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">LeetCode</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_Qgsx theme-doc-toc-mobile tocMobile_kCMx"><button type="button" class="clean-btn tocCollapsibleButton_cABJ">本页总览</button></div><div class="theme-doc-markdown markdown"><h1>LeetCode</h1>
-<h2 class="anchor anchorWithStickyNavbar_s992" id="介绍">介绍<a class="hash-link" aria-label="介绍的直接链接" title="介绍的直接链接" href="/docs/leetcode/#介绍">​</a></h2>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_d0kA" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="welcomme to the world of lucky ultraman." class="themedComponent_Iuv5 themedComponent--light_XjDw"><img src="/img/logo.png" alt="welcomme to the world of lucky ultraman." class="themedComponent_Iuv5 themedComponent--dark_fKx6"></div><b class="navbar__title text--truncate">信韵的小奥特</b></a></div><div class="navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Journal</a><a class="navbar__item navbar__link" href="/blog">Record</a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Link</a><ul class="dropdown__menu"><li><a href="//www.bestlyg.com/web/resume" target="_blank" rel="noopener noreferrer" class="dropdown__link">About Me<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_ENv3"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://github.com/bestlyg" target="_blank" rel="noopener noreferrer" class="dropdown__link">GitHub<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_ENv3"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://gitee.com/bestlyg" target="_blank" rel="noopener noreferrer" class="dropdown__link">Gitee<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_ENv3"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="https://wx.qq.com/" target="_blank" rel="noopener noreferrer" class="dropdown__link">WeChat : bestlyg<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_ENv3"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1057966749&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer" class="dropdown__link">QQ<svg width="12" height="12" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_ENv3"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="toggle_VHbO colorModeToggle_L7JK"><button class="clean-btn toggleButton_A4f1 toggleButtonDisabled_bgvs" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_xDSU"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_M9T4"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_O7lw"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_IkVL"><div class="docsWrapper_tIIk"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_RH_K" type="button"></button><div class="docRoot_oseM"><aside class="theme-doc-sidebar-container docSidebarContainer_c431"><div class="sidebarViewport_ttlu"><div class="sidebar_C7uy"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_J7Lv"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro">日志导航</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/数据结构/">数据结构</a><button aria-label="展开侧边栏分类 &#x27;数据结构&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/算法/">算法</a><button aria-label="展开侧边栏分类 &#x27;算法&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible menu__list-item-collapsible--active"><a class="menu__link menu__link--sublist menu__link--active" aria-current="page" href="/docs/leetcode/">LeetCode</a><button aria-label="折叠侧边栏分类 &#x27;LeetCode&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1-100/两数之和">1-100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/101-200/对称二叉树">101-200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/201-300/数字范围按位与">201-300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/301-400/删除无效的括号">301-400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/401-500/二进制手表">401-500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/501-600/二叉搜索树中的众数">501-600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/601-700/种花问题">601-700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/701-800/二叉搜索树中的插入操作">701-800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/801-900/使序列递增的最小交换次数">801-900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/901-1000/股  票价格跨度">901-1000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1001-1100/网格照明">1001-1100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1101-1200/分糖果II">1101-1200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1201-1300/丑数III">1201-1300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1301-1400/层数最深叶子节点的和">1301-1400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1401-1500/圆和矩形是否有重叠">1401-1500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1501-1600/子数组和排序后的区间和">1501-1600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1601-1700/最多可达成的换楼请求数目">1601-1700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1701-1800/修改后的最大二进制字符串">1701-1800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1801-1900/积压订单中的订单总数">1801-1900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/1901-2000/寻找峰值II">1901-2000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2001-2100/可互换矩形的组数">2001-2100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2101-2200/引爆最多的炸弹">2101-2200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2201-2300/将数组和减半的最少操作次数">2201-2300</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2301-2400/计算应缴税款总额">2301-2400</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2401-2500/出现最频繁的偶数元素">2401-2500</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2501-2600/数组中最长的方波">2501-2600</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2601-2700/质数减法运算">2601-2700</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2701-2800/相等还是不相等">2701-2800</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2801-2900/取整购买后的账户余额">2801-2900</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/2901-3000/元素和最小的山形三元组I">2901-3000</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/3001-3100/价值和小于等于K的最大数字">3001-3100</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/3101-3200/交替子数组计数">3101-3200</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/面试题/面试题01.02.判定是否互为字符重排">面试题</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/LCP/LCP06.拿硬币">LCP</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/leetcode/LCR/LCR003.比特位计数">LCR</a></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/作品集/UI">作品集</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/应用/">应用</a><button aria-label="展开侧边栏分类 &#x27;应用&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/英语/听力攻略">英  语</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/软考/信息系统项目管理师/">软考</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/H5/IOS中fixed属性会在存在虚拟键盘的时候失效">H5</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/Python/Python创建Excel文件">Python</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/WEB/SPA首屏性能优化">WEB</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/WEBGL/判断鼠标是否选中物体">WEBGL</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/常见技巧/MACOS常用命令">  常见技巧</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_N4WA"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_iHDD"><div class="docItemContainer_NwG1"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_AAOh" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_hFzE"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">LeetCode</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_PLqR theme-doc-toc-mobile tocMobile_Ny6o"><button type="button" class="clean-btn tocCollapsibleButton_Jvfx">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>LeetCode</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_A997" id="介绍">介绍<a href="#介绍" class="hash-link" aria-label="介绍的直接链接" title="介绍的直接链接">​</a></h2>
 <p>个人 LeetCode 题解</p>
 <ul>
-<li>总题目数: 1549</li>
-<li>总题解数: 2967</li>
+<li>总题目数: 1561</li>
+<li>总题解数: 2985</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_s992" id="顺序索引">顺序索引<a class="hash-link" aria-label="顺序索引的直接链接" title="顺序  索引的直接链接" href="/docs/leetcode/#顺序索引">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1-100">1-100<a class="hash-link" aria-label="1-100的直接链接" title="1-100的直接链接" href="/docs/leetcode/#1-100">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_A997" id="顺序索引">顺序索引<a href="#顺序索引" class="hash-link" aria-label="顺序索引的直接链接" title="顺序索引的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1-100">1-100<a href="#1-100" class="hash-link" aria-label="1-100的直接链接" title="1-100的直接链接">​</a></h3>
 <ul>
 <li>1.两数之和</li>
 <li>2.两数相加</li>
 <li>3.无重复字符的最长子串</li>
-<li>4.寻找两个正序数组的中位数</li>
+<li>4.寻 找两个正序数组的中位数</li>
 <li>5.最长回文子串</li>
 <li>6.Z字形变换</li>
 <li>7.整数反转</li>
@@ -80,7 +80,7 @@
 <li>55.跳跃游戏</li>
 <li>56.合并区间</li>
 <li>57.插入区间</li>
-<li>58.最后一个  单词的长度</li>
+<li>58.最后一个单词的长度</li>
 <li>59.螺旋矩阵II</li>
 <li>60.排列序列</li>
 <li>61.旋转链表</li>
@@ -121,7 +121,7 @@
 <li>99.恢复二叉搜索树</li>
 <li>100.相同的树</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="101-200">101-200<a class="hash-link" aria-label="101-200的直接链接" title="101-200的直接链接" href="/docs/leetcode/#101-200">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="101-200">101-200<a href="#101-200" class="hash-link" aria-label="101-200的直接链接" title="101-200的直接链接">​</a></h3>
 <ul>
 <li>101.对称二叉树</li>
 <li>102.二叉树的层序遍历</li>
@@ -148,7 +148,7 @@
 <li>123.买卖股票的最佳时机III</li>
 <li>124.二叉树中的最大路径和</li>
 <li>125.验证回文串</li>
-<li>128.最长连续序列</li>
+<li>128.最长连续  序列</li>
 <li>129.求根节点到叶节点数字之和</li>
 <li>130.被围绕的区域</li>
 <li>131.分割回文串</li>
@@ -197,7 +197,7 @@
 <li>199.二叉树的右视图</li>
 <li>200.岛屿数量</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="201-300">201-300<a class="hash-link" aria-label="201-300的直接链接" title="201-300的直接链接" href="/docs/leetcode/#201-300">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="201-300">201-300<a href="#201-300" class="hash-link" aria-label="201-300的直接链接" title="201-300的直接链接">​</a></h3>
 <ul>
 <li>201.数字范围按位与</li>
 <li>202.快乐数</li>
@@ -260,15 +260,15 @@
 <li>290.单词规律</li>
 <li>292.Nim游戏</li>
 <li>295.数据流的中位数</li>
-<li>297.二叉树的  序列化与反序列化</li>
+<li>297.二叉树的序列化与反序列化</li>
 <li>299.猜数字游戏</li>
 <li>300.最长递增子序列</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="301-400">301-400<a class="hash-link" aria-label="301-400的直接链接" title="301-400的直接链接" href="/docs/leetcode/#301-400">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="301-400">301-400<a href="#301-400" class="hash-link" aria-label="301-400的直接链接" title="301-400的直接链接">​</a></h3>
 <ul>
 <li>301.删除无效的括号</li>
 <li>303.区域和检索-数组不可变</li>
-<li>304.二维区域和检索-矩阵不可变</li>
+<li>304.二维区域和检  索-矩阵不可变</li>
 <li>306.累加数</li>
 <li>307.区域和检索-数组可修改</li>
 <li>309.买卖股票的最佳时机含冷冻期</li>
@@ -314,7 +314,7 @@
 <li>375.猜数字大小II</li>
 <li>377.组合总和Ⅳ</li>
 <li>378.有序矩阵中第K小的元素</li>
-<li>380.O(1)时间插入、删除和获取随机 元素</li>
+<li>380.O(1)时间插入、删除和获取随机元素</li>
 <li>381.O(1)时间插入、删除和获取随机元素-允许重复</li>
 <li>383.赎金信</li>
 <li>384.打乱数组</li>
@@ -326,7 +326,7 @@
 <li>390.消除游戏</li>
 <li>391.完美矩形</li>
 <li>392.判断子序列</li>
-<li>393.UTF-8编码验证</li>
+<li>393.UTF-8编  码验证</li>
 <li>394.字符串解码</li>
 <li>395.至少有K个重复字符的最长子串</li>
 <li>396.旋转函数</li>
@@ -334,7 +334,7 @@
 <li>398.随机数索引</li>
 <li>400.第N位数字</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="401-500">401-500<a class="hash-link" aria-label="401-500的直接链接" title="401-500的直接链接" href="/docs/leetcode/#401-500">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="401-500">401-500<a href="#401-500" class="hash-link" aria-label="401-500的直接链接" title="401-500的直接链接">​</a></h3>
 <ul>
 <li>401.二进制手表</li>
 <li>402.移掉K位数字</li>
@@ -382,7 +382,7 @@
 <li>459.重复的子字符串</li>
 <li>460.LFU缓存</li>
 <li>461.汉明距离</li>
-<li>462.最小操作次数使数组元素相等II</li>
+<li>462.最小操 作次数使数组元素相等II</li>
 <li>463.岛屿的周长</li>
 <li>464.我能赢吗</li>
 <li>466.统计重复个数</li>
@@ -411,7 +411,7 @@
 <li>498.对角线遍历</li>
 <li>500.键盘行</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="501-600">501-600<a class="hash-link" aria-label="501-600的直接链接" title="501-600的直接链接" href="/docs/leetcode/#501-600">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="501-600">501-600<a href="#501-600" class="hash-link" aria-label="501-600的直接链接" title="501-600的直接链接">​</a></h3>
 <ul>
 <li>501.二叉搜索树中的众数</li>
 <li>502.IPO</li>
@@ -430,7 +430,7 @@
 <li>520.检测大写字母</li>
 <li>522.最长特殊序列II</li>
 <li>523.连续的子数组和</li>
-<li>524.通过删除字母匹  配到字典里最长单词</li>
+<li>524.通过删除字母匹配到字典里最长单词</li>
 <li>525.连续数组</li>
 <li>526.优美的排列</li>
 <li>528.按权重随机选择</li>
@@ -442,7 +442,7 @@
 <li>538.把二叉搜索树转换为累加树</li>
 <li>539.最小时间差</li>
 <li>540.有序数组中的单一元素</li>
-<li>541.反转字符串II</li>
+<li>541.反转字 符串II</li>
 <li>542.01矩阵</li>
 <li>543.二叉树的直径</li>
 <li>547.省份数量</li>
@@ -475,7 +475,7 @@
 <li>598.区间加法II</li>
 <li>600.不含连续1的非负整数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="601-700">601-700<a class="hash-link" aria-label="601-700的直接链接" title="601-700的直接链接" href="/docs/leetcode/#601-700">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="601-700">601-700<a href="#601-700" class="hash-link" aria-label="601-700的直接链接" title="601-700的直接链接">​</a></h3>
 <ul>
 <li>605.种花问题</li>
 <li>606.根据二叉树创建字符串</li>
@@ -535,7 +535,7 @@
 <li>699.掉落的方块</li>
 <li>700.二叉搜索树中的搜索</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="701-800">701-800<a class="hash-link" aria-label="701-800的直接链接" title="701-800的直接链接" href="/docs/leetcode/#701-800">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="701-800">701-800<a href="#701-800" class="hash-link" aria-label="701-800的直接链接" title="701-800的直接链接">​</a></h3>
 <ul>
 <li>701.二叉搜索树中的插入操作</li>
 <li>704.二分查找</li>
@@ -603,7 +603,7 @@
 <li>798.得分最高的最小轮调</li>
 <li>799.香槟塔</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="801-900">801-900<a class="hash-link" aria-label="801-900的直接链接" title="801-900的直接链接" href="/docs/leetcode/#801-900">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="801-900">801-900<a href="#801-900" class="hash-link" aria-label="801-900的直接链接" title="801-900的直接链接">​</a></h3>
 <ul>
 <li>801.使序列递增的最小交换次数</li>
 <li>802.找到最终的安全状态</li>
@@ -615,7 +615,7 @@
 <li>809.情感丰富的文字</li>
 <li>810.黑板异或游戏</li>
 <li>811.子域名访问计数</li>
-<li>812.最大三角形面积</li>
+<li>812.最大三角  形面积</li>
 <li>813.最大平均值和的分组</li>
 <li>814.二叉树剪枝</li>
 <li>815.公交路线</li>
@@ -660,7 +660,7 @@
 <li>865.具有所有最深节点的最小子树</li>
 <li>867.转置矩阵</li>
 <li>868.二进制间距</li>
-<li>869.重新排序得 到2的幂</li>
+<li>869.重新排序得到2的幂</li>
 <li>870.优势洗牌</li>
 <li>873.最长的斐波那契子序列的长度</li>
 <li>874.模拟行走机器人</li>
@@ -685,7 +685,7 @@
 <li>897.递增顺序搜索树</li>
 <li>899.有序队列</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="901-1000">901-1000<a class="hash-link" aria-label="901-1000的直接链接" title="901-1000的直接链接" href="/docs/leetcode/#901-1000">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="901-1000">901-1000<a href="#901-1000" class="hash-link" aria-label="901-1000的直接链接" title="901-1000的直接链接">​</a></h3>
 <ul>
 <li>901.股票价格跨度</li>
 <li>902.最大为N的数字组合</li>
@@ -755,7 +755,7 @@
 <li>999.可以被一步捕获的棋子数</li>
 <li>1000.合并石头的最低成本</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1001-1100">1001-1100<a class="hash-link" aria-label="1001-1100的直接链接" title="1001-1100的直接链接" href="/docs/leetcode/#1001-1100">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1001-1100">1001-1100<a href="#1001-1100" class="hash-link" aria-label="1001-1100的直接链接" title="1001-1100的直接链接">​</a></h3>
 <ul>
 <li>1001.网格照明</li>
 <li>1002.查找共用字符</li>
@@ -819,10 +819,10 @@
 <li>1092.最短公共超序列</li>
 <li>1093.大样本统计</li>
 <li>1094.拼车</li>
-<li>1095.山脉  数组中查找目标值</li>
+<li>1095.山脉数组中查找目标值</li>
 <li>1096.花括号展开II</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1101-1200">1101-1200<a class="hash-link" aria-label="1101-1200的直接链接" title="1101-1200的直接链接" href="/docs/leetcode/#1101-1200">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1101-1200">1101-1200<a href="#1101-1200" class="hash-link" aria-label="1101-1200的直接链接" title="1101-1200的直接链接">​</a></h3>
 <ul>
 <li>1103.分糖果II</li>
 <li>1104.二叉树寻路</li>
@@ -867,7 +867,7 @@
 <li>1190.反转每对括号间的子串</li>
 <li>1200.最小绝对差</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1201-1300">1201-1300<a class="hash-link" aria-label="1201-1300的直接链接" title="1201-1300的 直接链接" href="/docs/leetcode/#1201-1300">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1201-1300">1201-1300<a href="#1201-1300" class="hash-link" aria-label="1201-1300的直接链接" title="1201-1300的直接链接">​</a></h3>
 <ul>
 <li>1201.丑数III</li>
 <li>1202.交换字符串中的元素</li>
@@ -882,7 +882,7 @@
 <li>1222.可以攻击国王的皇后</li>
 <li>1223.掷骰子模拟</li>
 <li>1224.最大相等频率</li>
-<li>1232.缀点成线</li>
+<li>1232.缀点 成线</li>
 <li>1233.删除子文件夹</li>
 <li>1234.替换子串得到平衡字符串</li>
 <li>1235.规划兼职工作</li>
@@ -910,7 +910,7 @@
 <li>1289.下降路径最小和II</li>
 <li>1300.转变数组后最接近目标值的数组和</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1301-1400">1301-1400<a class="hash-link" aria-label="1301-1400的直接链接" title="1301-1400的直接链接" href="/docs/leetcode/#1301-1400">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1301-1400">1301-1400<a href="#1301-1400" class="hash-link" aria-label="1301-1400的直接链接" title="1301-1400的直接链接">​</a></h3>
 <ul>
 <li>1302.层数最深叶子节点的和</li>
 <li>1305.两棵二叉搜索树中的所有元素</li>
@@ -945,7 +945,7 @@
 <li>1388.3n块披萨</li>
 <li>1392.最长快乐前缀</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1401-1500">1401-1500<a class="hash-link" aria-label="1401-1500的直接链接" title="1401-1500的直接链接" href="/docs/leetcode/#1401-1500">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1401-1500">1401-1500<a href="#1401-1500" class="hash-link" aria-label="1401-1500的直接链接" title="1401-1500的直接链接">​</a></h3>
 <ul>
 <li>1401.圆和矩形是否有重叠</li>
 <li>1402.做菜顺序</li>
@@ -963,7 +963,7 @@
 <li>1423.可获得的最大点数</li>
 <li>1431.拥有最多糖果的孩子</li>
 <li>1436.旅行终点站</li>
-<li>1438.绝对差不  超过限制的最长连续子数组</li>
+<li>1438.绝对差不超过限制的最长连续子数组</li>
 <li>1439.有序矩阵中的第k个最小数组和</li>
 <li>1441.用栈操作构建数组</li>
 <li>1442.形成两个异或相等数组的三元组数目</li>
@@ -992,7 +992,7 @@
 <li>1494.并行课程II</li>
 <li>1499.满足不等式的最大值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1501-1600">1501-1600<a class="hash-link" aria-label="1501-1600的直接链接" title="1501-1600的直接链接" href="/docs/leetcode/#1501-1600">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1501-1600">1501-1600<a href="#1501-1600" class="hash-link" aria-label="1501-1600的直接链接" title="1501-1600的直接链接">​</a></h3>
 <ul>
 <li>1508.子数组和排序后的区间和</li>
 <li>1512.好数对的数目</li>
@@ -1013,14 +1013,14 @@
 <li>1599.经营摩天轮的最大利润</li>
 <li>1600.王位继承顺序</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1601-1700">1601-1700<a class="hash-link" aria-label="1601-1700的直接链接" title="1601-1700的直接链接" href="/docs/leetcode/#1601-1700">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1601-1700">1601-1700<a href="#1601-1700" class="hash-link" aria-label="1601-1700的直接链接" title="1601-1700的直接链接">​</a></h3>
 <ul>
 <li>1601.最多可达成的换楼请求数目</li>
 <li>1603.设计停车系统</li>
 <li>1604.警告一小时内使用相同员工卡大于等于三次的人</li>
 <li>1605.给定行和列的和求可行矩阵</li>
 <li>1608.特殊数组的特征值</li>
-<li>1609.奇偶树</li>
+<li>1609.奇偶  树</li>
 <li>1610.可见点的最大数目</li>
 <li>1614.括号的最大嵌套深度</li>
 <li>1615.最大网络秩</li>
@@ -1053,7 +1053,7 @@
 <li>1668.最大重复子字符串</li>
 <li>1669.合并两个链表</li>
 <li>1670.设计前中后队列</li>
-<li>1671. 得到山形数组的最少删除次数</li>
+<li>1671.得到山形数组的最少删除次数</li>
 <li>1672.最富有客户的资产总量</li>
 <li>1673.找出最具竞争力的子序列</li>
 <li>1678.设计Goal解析器</li>
@@ -1068,7 +1068,7 @@
 <li>1696.跳跃游戏VI</li>
 <li>1700.无法吃午餐的学生数量</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1701-1800">1701-1800<a class="hash-link" aria-label="1701-1800的直接链接" title="1701-1800的直接链接" href="/docs/leetcode/#1701-1800">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1701-1800">1701-1800<a href="#1701-1800" class="hash-link" aria-label="1701-1800的直接链接" title="1701-1800的直接链接">​</a></h3>
 <ul>
 <li>1702.修改后的最大二进制字符串</li>
 <li>1703.得到连续K个1的最少相邻交换次数</li>
@@ -1110,7 +1110,7 @@
 <li>1769.移动所有球到每个盒子所需的最小操作数</li>
 <li>1773.统计匹配检索规则的物品数量</li>
 <li>1774.最接近目标价格的甜点成本</li>
-<li>1775.通过最少操作次数使数组的和相等</li>
+<li>1775.通过最少  操作次数使数组的和相等</li>
 <li>1779.找到最近的有相同X或Y坐标的点</li>
 <li>1780.判断一个数字是否可以表示成三的幂的和</li>
 <li>1781.所有子字符串美丽值之和</li>
@@ -1126,7 +1126,7 @@
 <li>1799.N次操作后的最大分数和</li>
 <li>1800.最大升序子数组和</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1801-1900">1801-1900<a class="hash-link" aria-label="1801-1900的直接链接" title="1801-1900的直接链接" href="/docs/leetcode/#1801-1900">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1801-1900">1801-1900<a href="#1801-1900" class="hash-link" aria-label="1801-1900的直接链接" title="1801-1900的直接链接">​</a></h3>
 <ul>
 <li>1801.积压订单中的订单总数</li>
 <li>1802.有界数组中指定下标处的最大值</li>
@@ -1153,11 +1153,11 @@
 <li>1838.最高频元素的频数</li>
 <li>1851.包含每个查询的最小区间</li>
 <li>1856.子数组最小乘积的最大值</li>
-<li>1877.数组中最大数对和的最小值</li>
+<li>1877.数组  中最大数对和的最小值</li>
 <li>1893.检查是否区域内所有整数都被覆盖</li>
 <li>1894.找到需要补充粉笔的学生编号</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="1901-2000">1901-2000<a class="hash-link" aria-label="1901-2000的直接链接" title="1901-2000的直接链接" href="/docs/leetcode/#1901-2000">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="1901-2000">1901-2000<a href="#1901-2000" class="hash-link" aria-label="1901-2000的直接链接" title="1901-2000的直接链接">​</a></h3>
 <ul>
 <li>1901.寻找峰值II</li>
 <li>1911.最大子序列交替和</li>
@@ -1180,7 +1180,7 @@
 <li>1997.访问完所有房间的第一天</li>
 <li>2000.反转单词前缀</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2001-2100">2001-2100<a class="hash-link" aria-label="2001-2100的直接链接" title="2001-2100的直接链接" href="/docs/leetcode/#2001-2100">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2001-2100">2001-2100<a href="#2001-2100" class="hash-link" aria-label="2001-2100的直接链接" title="2001-2100的直接链接">​</a></h3>
 <ul>
 <li>2001.可互换矩形的组数</li>
 <li>2003.每棵子树内缺失的最小基因值</li>
@@ -1214,7 +1214,7 @@
 <li>2085.统计出现过一次的公共字符串</li>
 <li>2100.适合野炊的日子</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2101-2200">2101-2200<a class="hash-link" aria-label="2101-2200的直接链接" title="2101-2200的直接链接" href="/docs/leetcode/#2101-2200">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2101-2200">2101-2200<a href="#2101-2200" class="hash-link" aria-label="2101-2200的直接链接" title="2101-2200的直接链接">​</a></h3>
 <ul>
 <li>2101.引爆最多的炸弹</li>
 <li>2103.环和杆</li>
@@ -1236,11 +1236,11 @@
 <li>2185.统计包含给定前缀的字符串</li>
 <li>2192.有向无环图中一个节点的所有祖先</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2201-2300">2201-2300<a class="hash-link" aria-label="2201-2300的直接链接" title="2201-2300的直接链接" href="/docs/leetcode/#2201-2300">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2201-2300">2201-2300<a href="#2201-2300" class="hash-link" aria-label="2201-2300的直接链接" title="2201-2300的直接链接">​</a></h3>
 <ul>
 <li>2208.将数组和减半的最少操作次数</li>
 <li>2216.美化数组的最少删除数</li>
-<li>2225.找出输掉零场或一场比赛的玩家</li>
+<li>2225.  找出输掉零场或一场比赛的玩家</li>
 <li>2235.两整数相加</li>
 <li>2236.判断根结点是否等于子结点之和</li>
 <li>2240.买钢笔和铅笔的方案数</li>
@@ -1255,7 +1255,7 @@
 <li>2299.强密码检验器II</li>
 <li>2300.咒语和药水的成功对数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2301-2400">2301-2400<a class="hash-link" aria-label="2301-2400的直接链接" title="2301-2400的直接链接" href="/docs/leetcode/#2301-2400">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2301-2400">2301-2400<a href="#2301-2400" class="hash-link" aria-label="2301-2400的直接链接" title="2301-2400的直接链接">​</a></h3>
 <ul>
 <li>2303.计算应缴税款总额</li>
 <li>2304.网格中的最小路径代价</li>
@@ -1287,7 +1287,7 @@
 <li>2397.被列覆盖的最多行数</li>
 <li>2399.检查相同字母间的距离</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2401-2500">2401-2500<a class="hash-link" aria-label="2401-2500的直接链接" title="2401-2500的直接链接" href="/docs/leetcode/#2401-2500">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2401-2500">2401-2500<a href="#2401-2500" class="hash-link" aria-label="2401-2500的直接链接" title="2401-2500的直接链接">​</a></h3>
 <ul>
 <li>2404.出现最频繁的偶数元素</li>
 <li>2409.统计共同度过的日子数</li>
@@ -1331,7 +1331,7 @@
 <li>2493.将节点分成尽可能多的组</li>
 <li>2496.数组中字符串的最大值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2501-2600">2501-2600<a class="hash-link" aria-label="2501-2600的直接链接" title="2501-2600的直接链接" href="/docs/leetcode/#2501-2600">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2501-2600">2501-2600<a href="#2501-2600" class="hash-link" aria-label="2501-2600的直接链接" title="2501-2600的直接链接">​</a></h3>
 <ul>
 <li>2501.数组中最长的方波</li>
 <li>2502.设计内存分配器</li>
@@ -1375,7 +1375,7 @@
 <li>2563.统计公平数对的数目</li>
 <li>2564.子字符串异或查询</li>
 <li>2565.最少得分子序列</li>
-<li>2570.合并两个二维数组-求和法</li>
+<li>2570.合并两个二维数 组-求和法</li>
 <li>2571.将整数减少到零需要的最少操作数</li>
 <li>2572.无平方子集计数</li>
 <li>2573.找出对应LCP矩阵的字符串</li>
@@ -1400,10 +1400,10 @@
 <li>2598.执行操作后的最大MEX</li>
 <li>2600.K件物品的最大和</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2601-2700">2601-2700<a class="hash-link" aria-label="2601-2700的直接链接" title="2601-2700的直接链接" href="/docs/leetcode/#2601-2700">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2601-2700">2601-2700<a href="#2601-2700" class="hash-link" aria-label="2601-2700的直接链接" title="2601-2700的直接链接">​</a></h3>
 <ul>
 <li>2601.质数减法运算</li>
-<li>2602.使数组元素全部相等的最少操作次  数</li>
+<li>2602.使数组元素全部相等的最少操作次数</li>
 <li>2603.收集树中金币</li>
 <li>2605.从两个数字数组里生成最小数字</li>
 <li>2609.最长平衡子字符串</li>
@@ -1424,7 +1424,7 @@
 <li>2625.扁平化嵌套数组</li>
 <li>2626.数组归约运算</li>
 <li>2627.函数防抖</li>
-<li>2628.完全相等的JSON字符串</li>
+<li>2628. 完全相等的JSON字符串</li>
 <li>2629.复合函数</li>
 <li>2630.记忆函数II</li>
 <li>2631.分组</li>
@@ -1456,7 +1456,7 @@
 <li>2670.找出不同元素数目差数组</li>
 <li>2671.频率跟踪器</li>
 <li>2672.有相同颜色的相邻元素数目</li>
-<li>2673.使二叉树所有路径值相等的最小代  价</li>
+<li>2673.使二叉树所有路径值相等的最小代价</li>
 <li>2675.将对象数组转换为矩阵</li>
 <li>2676.节流</li>
 <li>2677.分块数组</li>
@@ -1474,12 +1474,13 @@
 <li>2699.修改图中的边权</li>
 <li>2700.两个对象之间的差异</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2701-2800">2701-2800<a class="hash-link" aria-label="2701-2800的直接链接" title="2701-2800的直接链接" href="/docs/leetcode/#2701-2800">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2701-2800">2701-2800<a href="#2701-2800" class="hash-link" aria-label="2701-2800的直接链接" title="2701-2800的直接链接">​</a></h3>
 <ul>
 <li>2704.相等还是不相等</li>
 <li>2705.精简对象</li>
 <li>2706.购买两块巧克力</li>
 <li>2707.字符串中的额外字符</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2710.移除字符串中的尾随零</li>
 <li>2711.对角线上不同值的数量差</li>
 <li>2712.使所有字符相等的最小成本</li>
@@ -1506,9 +1507,9 @@
 <li>2786.访问数组中的位置使分数最大</li>
 <li>2788.按分隔符拆分字符串</li>
 <li>2789.合并后数组中的最大元素</li>
-<li>2798.满足目标工作时长的员 工数目</li>
+<li>2798.满足目标工作时长的员工数目</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2801-2900">2801-2900<a class="hash-link" aria-label="2801-2900的直接链接" title="2801-2900的直接链接" href="/docs/leetcode/#2801-2900">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2801-2900">2801-2900<a href="#2801-2900" class="hash-link" aria-label="2801-2900的直接链接" title="2801-2900的直接链接">​</a></h3>
 <ul>
 <li>2806.取整购买后的账户余额</li>
 <li>2807.在链表中插入最大公约数</li>
@@ -1520,15 +1521,16 @@
 <li>2831.找出最长等值子数组</li>
 <li>2834.找出美丽数组的最小和</li>
 <li>2844.生成特殊数字的最少操作</li>
-<li>2850.将石头分散到网格图的最少移动次数</li>
+<li>2850.将石头分散到网格图的最少移动  次数</li>
 <li>2859.计算K置位下标对应元素的和</li>
+<li>2860.让所有学生保持开心的分组方法数</li>
 <li>2861.最大合金数</li>
 <li>2864.最大二进制奇数</li>
 <li>2865.美丽塔I</li>
 <li>2866.美丽塔II</li>
 <li>2867.统计树中的合法路径数目</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="2901-3000">2901-3000<a class="hash-link" aria-label="2901-3000的直接链接" title="2901-3000的直接链接" href="/docs/leetcode/#2901-3000">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="2901-3000">2901-3000<a href="#2901-3000" class="hash-link" aria-label="2901-3000的直接链接" title="2901-3000的直接链接">​</a></h3>
 <ul>
 <li>2908.元素和最小的山形三元组I</li>
 <li>2917.找出数组中的K-or值</li>
@@ -1549,8 +1551,9 @@
 <li>2981.找出出现至少三次的最长特殊子字符串I</li>
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="3001-3100">3001-3100<a class="hash-link" aria-label="3001-3100的直接链接" title="3001-3100的直接链接" href="/docs/leetcode/#3001-3100">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="3001-3100">3001-3100<a href="#3001-3100" class="hash-link" aria-label="3001-3100的直接链接" title="3001-3100的直接链接">​</a></h3>
 <ul>
+<li>3007.价值和小于等于K的最大数字</li>
 <li>3011.判断一个数组是否可以变为有序</li>
 <li>3038.相同分数的最大操作数目I</li>
 <li>3040.相同分数的最大操作数目II</li>
@@ -1560,7 +1563,7 @@
 <li>3098.求出所有子序列的能量和</li>
 <li>3099.哈沙德数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="3101-3200">3101-3200<a class="hash-link" aria-label="3101-3200的直接链接" title="3101-3200的直接链接" href="/docs/leetcode/#3101-3200">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="3101-3200">3101-3200<a href="#3101-3200" class="hash-link" aria-label="3101-3200的直接链接" title="3101-3200的直接链接">​</a></h3>
 <ul>
 <li>3101.交替子数组计数</li>
 <li>3106.满足距离约束且字典序最小的字符串</li>
@@ -1568,16 +1571,25 @@
 <li>3112.访问消失节点的最少时间</li>
 <li>3115.质数的最大距离</li>
 <li>3117.划分数组得到最小的值之和</li>
+<li>3127.构造相同颜色的正方形</li>
 <li>3128.直角三角形</li>
 <li>3131.找出与数组相加的整数I</li>
 <li>3132.找出与数组相加的整数II</li>
+<li>3133.数组最后一个元素的最小值</li>
 <li>3137.K周期字符串需要的最少操作次数</li>
+<li>3142.判断矩阵是否满足条件</li>
 <li>3143.正方形中的最多点数</li>
+<li>3144.分割字符频率相等的最少子字符串</li>
+<li>3146.两个字符串的排列差</li>
 <li>3148.矩阵中的最大得分</li>
 <li>3151.特殊数组I</li>
 <li>3152.特殊数组II</li>
+<li>3153.所有数对中数位不同之和</li>
+<li>3154.到达第K级台阶的方案数</li>
+<li>3174.清除数字</li>
+<li>3176.求出最长好子序列I</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="面试题">面试题<a class="hash-link" aria-label="面试题的直接链接" title="面试题的直接链接" href="/docs/leetcode/#面试题">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="面试题">面试题<a href="#面试题" class="hash-link" aria-label="面试题的直接链接" title="面试题的直接链接">​</a></h3>
 <ul>
 <li>面试题01.02.判定是否互为字符重排</li>
 <li>面试题01.05.一次编辑</li>
@@ -1590,7 +1602,7 @@
 <li>面试题04.08.首个共同祖先</li>
 <li>面试题04.09.二叉搜索树序列</li>
 <li>面试题05.02.二进制数转字符串</li>
-<li> 面试题08.03.魔术索引</li>
+<li>面试题08.03.魔术索引</li>
 <li>面试题08.13.堆箱子</li>
 <li>面试题10.02.变位词组</li>
 <li>面试题10.10.数字流的秩</li>
@@ -1609,7 +1621,7 @@
 <li>面试题17.20.连续中值</li>
 <li>面试题17.21.直方图的水量</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="lcp">LCP<a class="hash-link" aria-label="LCP的直接链接" title="LCP的直接链接" href="/docs/leetcode/#lcp">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="lcp">LCP<a href="#lcp" class="hash-link" aria-label="LCP的直接链接" title="LCP的直接链接">​</a></h3>
 <ul>
 <li>LCP06.拿硬币</li>
 <li>LCP07.传递信息</li>
@@ -1622,7 +1634,7 @@
 <li>LCP50.宝石补给</li>
 <li>LCP61.气温变化趋势</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="lcr">LCR<a class="hash-link" aria-label="LCR的直接链接" title="LCR的直接链接" href="/docs/leetcode/#lcr">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="lcr">LCR<a href="#lcr" class="hash-link" aria-label="LCR的直接链接" title="LCR的直接链接">​</a></h3>
 <ul>
 <li>LCR003.比特位计数</li>
 <li>LCR005.最大单词长度乘积</li>
@@ -1642,7 +1654,7 @@
 <li>LCR036.逆波兰表达式求值</li>
 <li>LCR041.数据流中的移动平均值</li>
 <li>LCR053.二叉搜索树中的中序后继</li>
-<li>LCR067.数组中两 个数的最大异或值</li>
+<li>LCR067.数组中两个数的最大异或值</li>
 <li>LCR069.山脉数组的峰顶索引</li>
 <li>LCR074.合并区间</li>
 <li>LCR091.粉刷房子</li>
@@ -1676,8 +1688,8 @@
 <li>LCR186.文物朝代判断</li>
 <li>LCR189.设计机械累加器</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_s992" id="标签索引">标签索引<a class="hash-link" aria-label="标签索引的直接链接" title="标签索引的直接链接" href="/docs/leetcode/#标签索引">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="并查集">并查集<a class="hash-link" aria-label="并查集的直接链接" title="并查集的直接链接" href="/docs/leetcode/#并查集">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_A997" id="标签索引">标签索引<a href="#标签索引" class="hash-link" aria-label="标签索引的直接链接" title="标签索引的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="并查集">并查集<a href="#并查集" class="hash-link" aria-label="并查集的直接链接" title="并查集的直接链接">​</a></h3>
 <ul>
 <li>128.最长连续序列</li>
 <li>130.被围绕的区域</li>
@@ -1715,7 +1727,7 @@
 <li>2617.网格图中最少访问的格子数</li>
 <li>面试题16.19.水域大小</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="博弈">博弈<a class="hash-link" aria-label="博弈的直接链接" title="博弈的直接链接" href="/docs/leetcode/#博弈">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="博弈">博弈<a href="#博弈" class="hash-link" aria-label="博弈的直接链接" title="博弈的直接链接">​</a></h3>
 <ul>
 <li>292.Nim游戏</li>
 <li>375.猜数字大小II</li>
@@ -1730,7 +1742,7 @@
 <li>2029.石子游戏IX</li>
 <li>2038.如果相邻两个颜色均相同则删除当前颜色</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="单调队列">单调队列<a class="hash-link" aria-label="单调队列的直接链接" title="单调队列的直接链接" href="/docs/leetcode/#单调队列">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="单调队列">单调队列<a href="#单调队列" class="hash-link" aria-label="单调队列的直接链接" title="单调队列的直接链接">​</a></h3>
 <ul>
 <li>239.滑动窗口最大值</li>
 <li>862.和至少为K的最短子数组</li>
@@ -1742,7 +1754,7 @@
 <li>2762.不间断子数组</li>
 <li>LCR184.设计自助结算系统</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="单调栈">单调栈<a class="hash-link" aria-label="单调栈的直接链接" title="单调栈的直接链接" href="/docs/leetcode/#单调栈">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="单调栈">单调栈<a href="#单调栈" class="hash-link" aria-label="单调栈的直接链接" title="单调栈的直接链接">​</a></h3>
 <ul>
 <li>42.接雨水</li>
 <li>84.柱状图中最大的矩形</li>
@@ -1777,10 +1789,11 @@
 <li>2736.最大和查询</li>
 <li>2865.美丽塔I</li>
 <li>2866.美丽塔II</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>面试题17.21.直方图的水量</li>
 <li>LCR152.验证二叉搜索树的后序遍历序列</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="递归">递归<a class="hash-link" aria-label="递归的直接链接" title="递归的直接链接" href="/docs/leetcode/#递归">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="递归">递归<a href="#递归" class="hash-link" aria-label="递归的直接链接" title="递归的直接链接">​</a></h3>
 <ul>
 <li>2.两数相加</li>
 <li>10.正则表达式匹配</li>
@@ -1817,13 +1830,13 @@
 <li>LCR152.验证二叉搜索树的后序遍历序列</li>
 <li>LCR189.设计机械累加器</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="迭代器">迭代器<a class="hash-link" aria-label="迭代器的直接链接" title="迭代器的直接链接" href="/docs/leetcode/#迭代器">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="迭代器">迭代器<a href="#迭代器" class="hash-link" aria-label="迭代器的直接链接" title="迭代器的直接链接">​</a></h3>
 <ul>
 <li>173.二叉搜索树迭代器</li>
 <li>284.窥视迭代器</li>
 <li>341.扁平化嵌套列表迭代器</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="动态规划">动态规划<a class="hash-link" aria-label="动态规划的直接链接" title="动态规划的直接链接" href="/docs/leetcode/#动态规划">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="动态规划">动态规划<a href="#动态规划" class="hash-link" aria-label="动态规划的直接链接" title="动态规划的直接链接">​</a></h3>
 <ul>
 <li>5.最长回文子串</li>
 <li>10.正则表达式匹配</li>
@@ -1841,7 +1854,7 @@
 <li>72.编辑距离</li>
 <li>95.不同的二叉搜索树II</li>
 <li>96.不同的二叉搜索树</li>
-<li>97.交错字符 串</li>
+<li>97.交错字符串</li>
 <li>115.不同的子序列</li>
 <li>118.杨辉三角</li>
 <li>119.杨辉三角II</li>
@@ -1852,7 +1865,7 @@
 <li>124.二叉树中的最大路径和</li>
 <li>131.分割回文串</li>
 <li>132.分割回文串II</li>
-<li>139.单词拆分</li>
+<li>139.单词 拆分</li>
 <li>152.乘积最大子数组</li>
 <li>174.地下城游戏</li>
 <li>188.买卖股票的最佳时机IV</li>
@@ -1904,7 +1917,7 @@
 <li>553.最优除法</li>
 <li>576.出界的路径数</li>
 <li>583.两个字符串的删除操作</li>
-<li>600.不含连续1的非负整 数</li>
+<li>600.不含连续1的非负整数</li>
 <li>629.K个逆序对数组</li>
 <li>638.大礼包</li>
 <li>639.解码方法II</li>
@@ -1959,9 +1972,10 @@
 <li>1025.除数博弈</li>
 <li>1027.最长等差数列</li>
 <li>1031.两个非重叠子数组的最大和</li>
+<li>1035.不相交的线</li>
 <li>1039.多边形三角剖分的最低得分</li>
 <li>1043.分隔数组以得到最大和</li>
-<li>1048.  最长字符串链</li>
+<li>1048.最长字符串链</li>
 <li>1049.最后一块石头的重量II</li>
 <li>1092.最短公共超序列</li>
 <li>1105.填充书架</li>
@@ -1970,9 +1984,10 @@
 <li>1137.第N个泰波那契数</li>
 <li>1139.最大的以1为边界的正方形</li>
 <li>1140.石子游戏II</li>
-<li>1143.最长公共子序列</li>
+<li>1143.最长公共子 序列</li>
 <li>1147.段式回文</li>
 <li>1155.掷骰子等于目标和的方法数</li>
+<li>1186.删除一次得到子数组最大和</li>
 <li>1187.使数组严格递增</li>
 <li>1218.最长定差子序列</li>
 <li>1220.统计元音字母序列的数目</li>
@@ -2011,14 +2026,14 @@
 <li>1696.跳跃游戏VI</li>
 <li>1723.完成所有工作的最短时间</li>
 <li>1749.任意子数组和的绝对值的最大值</li>
-<li>1774.最接近目标价  格的甜点成本</li>
+<li>1774.最接近目标价格的甜点成本</li>
 <li>1799.N次操作后的最大分数和</li>
 <li>1815.得到新鲜甜甜圈的最多组数</li>
 <li>1824.最少侧跳次数</li>
 <li>1911.最大子序列交替和</li>
 <li>1976.到达目的地的方案数</li>
 <li>1994.好子集的数目</li>
-<li>1997.访问完所有房间的第一天</li>
+<li>1997.访问完所有房间的 第一天</li>
 <li>2003.每棵子树内缺失的最小基因值</li>
 <li>2008.出租车的最大盈利</li>
 <li>2050.并行课程III</li>
@@ -2047,15 +2062,23 @@
 <li>2681.英雄的力量</li>
 <li>2684.矩阵中移动的最大次数</li>
 <li>2707.字符串中的额外字符</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2712.使所有字符相等的最小成本</li>
 <li>2713.矩阵中严格递增的单元格数</li>
+<li>2719.统计整数数目</li>
 <li>2741.特别的排列</li>
 <li>2742.给墙壁刷油漆</li>
 <li>2786.访问数组中的位置使分数最大</li>
 <li>2850.将石头分散到网格图的最少移动次数</li>
 <li>2867.统计树中的合法路径数目</li>
+<li>3007.价值和小于等于K的最大数字</li>
 <li>3040.相同分数的最大操作数目II</li>
 <li>3098.求出所有子序列的能量和</li>
+<li>3117.划分数组得到最小的值之和</li>
+<li>3144.分割字符频率相等的最少子字符串</li>
+<li>3148.矩阵中的最大得分</li>
+<li>3154.到达第K级台阶的方案数</li>
+<li>3176.求出最长好子序列I</li>
 <li>面试题08.13.堆箱子</li>
 <li>面试题17.09.第k个数</li>
 <li>面试题17.13.恢复空格</li>
@@ -2070,7 +2093,7 @@
 <li>LCR165.解密数字</li>
 <li>LCR166.珠宝的最高价值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="堆优先队列">堆（优先队列）<a class="hash-link" aria-label="堆（优先队列）的直接链接" title="堆（优先队列）的直接链接" href="/docs/leetcode/#堆优先队列">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="堆优先队列">堆（优先队列）<a href="#堆优先队列" class="hash-link" aria-label="堆（优先队列）的直接链接" title="堆（优先队列）的直接链接">​</a></h3>
 <ul>
 <li>23.合并K个升序链表</li>
 <li>215.数组中的第K个最大元素</li>
@@ -2148,6 +2171,7 @@
 <li>2699.修改图中的边权</li>
 <li>2762.不间断子数组</li>
 <li>2813.子序列最大优雅度</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>2959.关闭分部的可行集合数目</li>
 <li>2974.最小数字游戏</li>
 <li>3112.访问消失节点的最少时间</li>
@@ -2159,7 +2183,7 @@
 <li>LCP33.蓄水</li>
 <li>LCR159.库存管理III</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="队列">队列<a class="hash-link" aria-label="队列的直接链接" title="队列的直接链接" href="/docs/leetcode/#队列">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="队列">队列<a href="#队列" class="hash-link" aria-label="队列的直接链接" title="队列的直接链接">​</a></h3>
 <ul>
 <li>225.用队列实现栈</li>
 <li>232.用栈实现队列</li>
@@ -2182,13 +2206,14 @@
 <li>1823.找出游戏的获胜者</li>
 <li>1825.求出MK平均值</li>
 <li>2762.不间断子数组</li>
+<li>3117.划分数组得到最小的值之和</li>
 <li>面试题03.04.化栈为队</li>
 <li>LCR041.数据流中的移动平均值</li>
 <li>LCR125.图书整理II</li>
 <li>LCR169.招式拆解II</li>
 <li>LCR184.设计自助结算系统</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="二叉树">二叉树<a class="hash-link" aria-label="二叉树的直接链接" title="二叉树的直接链接" href="/docs/leetcode/#二叉树">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="二叉树">二叉树<a href="#二叉树" class="hash-link" aria-label="二叉树的直接链接" title="二叉树的直接链接">​</a></h3>
 <ul>
 <li>94.二叉树的中序遍历</li>
 <li>95.不同的二叉搜索树II</li>
@@ -2259,7 +2284,7 @@
 <li>897.递增顺序搜索树</li>
 <li>919.完全二叉树插入器</li>
 <li>938.二叉搜索树的范围和</li>
-<li>958.二 叉树的完全性检验</li>
+<li>958.二叉树的完全性检验</li>
 <li>965.单值二叉树</li>
 <li>968.监控二叉树</li>
 <li>971.翻转二叉树以匹配先序遍历</li>
@@ -2311,7 +2336,7 @@
 <li>LCR156.序列化与反序列化二叉树</li>
 <li>LCR174.寻找二叉搜索树中的目标节点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="二叉搜索树">二叉搜索树<a class="hash-link" aria-label="二叉搜索树的直接链接" title="二叉搜索树的直接链接" href="/docs/leetcode/#二叉搜索树">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="二叉搜索树">二叉搜索树<a href="#二叉搜索树" class="hash-link" aria-label="二叉搜索树的直接链接" title="二叉搜索树的直接链接">​</a></h3>
 <ul>
 <li>95.不同的二叉搜索树II</li>
 <li>96.不同的二叉搜索树</li>
@@ -2345,10 +2370,10 @@
 <li>面试题17.12.BiNode</li>
 <li>LCR053.二叉搜索树中的中序后继</li>
 <li>LCR152.验证二叉搜索树的后序遍历序列</li>
-<li>LCR155.将二叉搜索树转化为排序的双向链表</li>
+<li>LCR155.将二叉搜索树转化为排序的双  向链表</li>
 <li>LCR174.寻找二叉搜索树中的目标节点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="二分查找">二分查找<a class="hash-link" aria-label="二分查找的直接链接" title="二分查找的直接链接" href="/docs/leetcode/#二分查找">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="二分查找">二分查找<a href="#二分查找" class="hash-link" aria-label="二分查找的直接链接" title="二分查找的直接链接">​</a></h3>
 <ul>
 <li>4.寻找两个正序数组的中位数</li>
 <li>33.搜索旋转排序数组</li>
@@ -2446,9 +2471,9 @@
 <li>1851.包含每个查询的最小区间</li>
 <li>1894.找到需要补充粉笔的学生编号</li>
 <li>1901.寻找峰值II</li>
-<li>1954.收集足够苹果的最小花园周长</li>
+<li>1954.收集足够苹果的最  小花园周长</li>
 <li>2008.出租车的最大盈利</li>
-<li>2009.使数组连续的最少操 作数</li>
+<li>2009.使数组连续的最少操作数</li>
 <li>2024.考试的最大困扰度</li>
 <li>2055.蜡烛之间的盘子</li>
 <li>2106.摘水果</li>
@@ -2476,10 +2501,14 @@
 <li>2824.统计和小于目标的下标对数目</li>
 <li>2831.找出最长等值子数组</li>
 <li>2861.最大合金数</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>2970.统计移除递增子数组的数目I</li>
 <li>2981.找出出现至少三次的最长特殊子字符串I</li>
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
+<li>3007.价值和小于等于K的最大数字</li>
+<li>3117.划分数组得到最小的值之和</li>
 <li>3143.正方形中的最多点数</li>
+<li>3152.特殊数组II</li>
 <li>面试题08.03.魔术索引</li>
 <li>面试题10.10.数字流的秩</li>
 <li>LCR008.长度最小的子数组</li>
@@ -2488,7 +2517,7 @@
 <li>LCR170.交易逆序对的总数</li>
 <li>LCR172.统计目标成绩的出现次数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="分治">分治<a class="hash-link" aria-label="分治的直接链接" title="分治的直接链接" href="/docs/leetcode/#分治">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="分治">分治<a href="#分治" class="hash-link" aria-label="分治的直接链接" title="分治的直接链接">​</a></h3>
 <ul>
 <li>4.寻找两个正序数组的中位数</li>
 <li>23.合并K个升序链表</li>
@@ -2525,14 +2554,14 @@
 <li>LCR161.连续天数的最高销售额</li>
 <li>LCR170.交易逆序对的总数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="概率与统计">概率与统计<a class="hash-link" aria-label="概率与统计的直接链接" title="概率与统计的直接链接" href="/docs/leetcode/#概率与统计">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="概率与统计">概率与统计<a href="#概率与统计" class="hash-link" aria-label="概率与统计的直接链接" title="概率与统计的直接链接">​</a></h3>
 <ul>
 <li>470.用Rand7()实现Rand10()</li>
 <li>808.分汤</li>
 <li>837.新21点</li>
 <li>1093.大样本统计</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="广度优先搜索">广度优先搜索<a class="hash-link" aria-label="广度优先搜索的直接链接" title="广度优先搜索的直接链接" href="/docs/leetcode/#广度优先搜索">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="广度优先搜索">广度优先搜索<a href="#广度优先搜索" class="hash-link" aria-label="广度优先搜索的直接链接" title="广度优先搜索的直接链接">​</a></h3>
 <ul>
 <li>100.相同的树</li>
 <li>101.对称二叉树</li>
@@ -2602,7 +2631,7 @@
 <li>865.具有所有最深节点的最小子树</li>
 <li>886.可能的二分法</li>
 <li>909.蛇梯棋</li>
-<li>919.完全二叉 树插入器</li>
+<li>919.完全二叉树插入器</li>
 <li>924.尽量减少恶意软件的传播</li>
 <li>928.尽量减少恶意软件的传播II</li>
 <li>934.最短的桥</li>
@@ -2675,7 +2704,7 @@
 <li>LCR130.衣橱整理</li>
 <li>LCR156.序列化与反序列化二叉树</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="归并排序">归并排序<a class="hash-link" aria-label="归并排序的直接链接" title="归并排序的直接链接" href="/docs/leetcode/#归并排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="归并排序">归并排序<a href="#归并排序" class="hash-link" aria-label="归并排序的直接链接" title="归并排序的直接链接">​</a></h3>
 <ul>
 <li>23.合并K个升序链表</li>
 <li>148.排序链表</li>
@@ -2684,7 +2713,7 @@
 <li>912.排序数组</li>
 <li>LCR170.交易逆序对的总数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="滚动哈希">滚动哈希<a class="hash-link" aria-label="滚动哈希的直接链接" title="滚动哈希的直接链接" href="/docs/leetcode/#滚动哈希">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="滚动哈希">滚动哈希<a href="#滚动哈希" class="hash-link" aria-label="滚动哈希的直接链接" title="滚动哈希的直接链接">​</a></h3>
 <ul>
 <li>187.重复的DNA序列</li>
 <li>214.最短回文串</li>
@@ -2694,7 +2723,7 @@
 <li>1392.最长快乐前缀</li>
 <li>面试题17.13.恢复空格</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="哈希表">哈希表<a class="hash-link" aria-label="哈希表的直接链接" title="哈希表的直接链接" href="/docs/leetcode/#哈希表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="哈希表">哈希表<a href="#哈希表" class="hash-link" aria-label="哈希表的直接链接" title="哈希表的直接链接">​</a></h3>
 <ul>
 <li>1.两数之和</li>
 <li>3.无重复字符的最长子串</li>
@@ -2755,7 +2784,7 @@
 <li>447.回旋镖的数量</li>
 <li>448.找到所有数组中消失的数字</li>
 <li>454.四数相加II</li>
-<li>457.环形数组是否存 在循环</li>
+<li>457.环形数组是否存在循环</li>
 <li>460.LFU缓存</li>
 <li>480.滑动窗口中位数</li>
 <li>491.非递减子序列</li>
@@ -2815,7 +2844,7 @@
 <li>884.两句话中的不常见单词</li>
 <li>888.公平的糖果交换</li>
 <li>889.根据前序和后序遍历构造二叉树</li>
-<li>890.  查找和替换模式</li>
+<li>890.查找和替换模式</li>
 <li>895.最大频率栈</li>
 <li>904.水果成篮</li>
 <li>911.在线选举</li>
@@ -2867,7 +2896,7 @@
 <li>1207.独一无二的出现次数</li>
 <li>1218.最长定差子序列</li>
 <li>1224.最大相等频率</li>
-<li>1261.在受污染的 二叉树中查找元素</li>
+<li>1261.在受污染的二叉树中查找元素</li>
 <li>1282.用户分组</li>
 <li>1331.数组序号转换</li>
 <li>1345.跳跃游戏IV</li>
@@ -2914,7 +2943,7 @@
 <li>1893.检查是否区域内所有整数都被覆盖</li>
 <li>1993.树上的操作</li>
 <li>1995.统计特殊四元组</li>
-<li>2001.可  互换矩形的组数</li>
+<li>2001.可互换矩形的组数</li>
 <li>2006.差的绝对值为K的数对数目</li>
 <li>2007.从双倍数组中还原原数组</li>
 <li>2008.出租车的最大盈利</li>
@@ -2961,7 +2990,7 @@
 <li>2502.设计内存分配器</li>
 <li>2506.统计相似字符串对的数目</li>
 <li>2508.添加边使所有节点度数都为偶数</li>
-<li>2512.  奖励最顶尖的K名学生</li>
+<li>2512.奖励最顶尖的K名学生</li>
 <li>2516.每种字符至少取K个</li>
 <li>2521.数组乘积中的不同质因数数目</li>
 <li>2531.使字符串中不同字符的数目相等</li>
@@ -2999,6 +3028,10 @@
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
 <li>3128.直角三角形</li>
 <li>3143.正方形中的最多点数</li>
+<li>3144.分割字符频率相等的最少子字符串</li>
+<li>3146.两个字符串的排列差</li>
+<li>3153.所有数对中数位不同之和</li>
+<li>3176.求出最长好子序列I</li>
 <li>面试题01.02.判定是否互为字符重排</li>
 <li>面试题01.08.零矩阵</li>
 <li>面试题02.01.移除重复节点</li>
@@ -3017,7 +3050,7 @@
 <li>LCR169.招式拆解II</li>
 <li>LCR171.训练计划V</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="哈希函数">哈希函数<a class="hash-link" aria-label="哈希函数的直接链接" title="哈希函数的直接链接" href="/docs/leetcode/#哈希函数">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="哈希函数">哈希函数<a href="#哈希函数" class="hash-link" aria-label="哈希函数的直接链接" title="哈希函数的直接链接">​</a></h3>
 <ul>
 <li>187.重复的DNA序列</li>
 <li>214.最短回文串</li>
@@ -3031,11 +3064,11 @@
 <li>1392.最长快乐前缀</li>
 <li>面试题17.13.恢复空格</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="后缀数组">后缀数组<a class="hash-link" aria-label="后缀数组的直接链接" title="后缀数组的直接链接" href="/docs/leetcode/#后缀数组">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="后缀数组">后缀数组<a href="#后缀数组" class="hash-link" aria-label="后缀数组的直接链接" title="后缀数组的直接链接">​</a></h3>
 <ul>
 <li>1044.最长重复子串</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="滑动窗口">滑动窗口<a class="hash-link" aria-label="滑动窗口的直接链接" title="滑动窗口的直接链接" href="/docs/leetcode/#滑动窗口">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="滑动窗口">滑动窗口<a href="#滑动窗口" class="hash-link" aria-label="滑动窗口的直接链接" title="滑动窗口的直接链接">​</a></h3>
 <ul>
 <li>3.无重复字符的最长子串</li>
 <li>30.串联所有单词的子串</li>
@@ -3054,7 +3087,7 @@
 <li>643.子数组最大平均数I</li>
 <li>658.找到K个最接近的元素</li>
 <li>713.乘积小于K的子数组</li>
-<li>718. 最长重复子数组</li>
+<li>718.最长重复子数组</li>
 <li>837.新21点</li>
 <li>862.和至少为K的最短子数组</li>
 <li>904.水果成篮</li>
@@ -3094,9 +3127,9 @@
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
 <li>LCR008.长度最小的子数组</li>
 <li>LCR009.乘积小于K的子数组</li>
-<li>LCR016.无重复字符的最长子串</li>
+<li>LCR016.无重复字符的最长子  串</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="回溯">回溯<a class="hash-link" aria-label="回溯的直接链接" title="回溯的直接链接" href="/docs/leetcode/#回溯">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="回溯">回溯<a href="#回溯" class="hash-link" aria-label="回溯的直接链接" title="回溯的直接链接">​</a></h3>
 <ul>
 <li>17.电话号码的字母组合</li>
 <li>22.括号生成</li>
@@ -3153,17 +3186,18 @@
 <li>2178.拆分成最多数目的正偶数之和</li>
 <li>2397.被列覆盖的最多行数</li>
 <li>2597.美丽子集的数目</li>
-<li>2698.求一个整数的惩罚数</li>
+<li>2698.求一个整  数的惩罚数</li>
+<li>2708.一个小组的最大实力值</li>
 <li>面试题04.09.二叉搜索树序列</li>
 <li>面试题16.18.模式匹配</li>
 <li>LCR157.套餐内商品的排列顺序</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="基数排序">基数排序<a class="hash-link" aria-label="基数排序的直接链接" title="基数排序的直接链接" href="/docs/leetcode/#基数排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="基数排序">基数排序<a href="#基数排序" class="hash-link" aria-label="基数排序的直接链接" title="基数排序的直接链接">​</a></h3>
 <ul>
 <li>164.最大间距</li>
 <li>912.排序数组</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="几何">几何<a class="hash-link" aria-label="几何的直接链接" title="几何的直接链接" href="/docs/leetcode/#几何">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="几何">几何<a href="#几何" class="hash-link" aria-label="几何的直接链接" title="几何的直接链接">​</a></h3>
 <ul>
 <li>149.直线上最多的点数</li>
 <li>223.矩形面积</li>
@@ -3185,7 +3219,7 @@
 <li>2481.分割圆的最少切割次数</li>
 <li>面试题16.03.交点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="计数">计数<a class="hash-link" aria-label="计数的直接链接" title="计数的直接链接" href="/docs/leetcode/#计数">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="计数">计数<a href="#计数" class="hash-link" aria-label="计数的直接链接" title="计数的直接链接">​</a></h3>
 <ul>
 <li>169.多数元素</li>
 <li>229.多数元素II</li>
@@ -3247,10 +3281,12 @@
 <li>2981.找出出现至少三次的最长特殊子字符串I</li>
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
 <li>3128.直角三角形</li>
+<li>3144.  分割字符频率相等的最少子字符串</li>
+<li>3153.所有数对中数位不同之和</li>
 <li>面试题17.10.主要元素</li>
 <li>LCR169.招式拆解II</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="计数排序">计数排序<a class="hash-link" aria-label="计数排序的直接链接" title="计数排序的直接链接" href="/docs/leetcode/#计数排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="计数排序">计数排序<a href="#计数排序" class="hash-link" aria-label="计数排序的直接链接" title="计数排序的直接链接">​</a></h3>
 <ul>
 <li>274.H指数</li>
 <li>561.数组拆分</li>
@@ -3258,7 +3294,7 @@
 <li>1051.高度检查器</li>
 <li>1122.数组的相对排序</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="记忆化搜索">记忆化搜索<a class="hash-link" aria-label="记忆化搜索的直接链接" title="记忆化搜索的直接链接" href="/docs/leetcode/#记忆化搜索">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="记忆化搜索">记忆化搜索<a href="#记忆化搜索" class="hash-link" aria-label="记忆化搜索的直接链接" title="记忆化搜索的直接链接">​</a></h3>
 <ul>
 <li>70.爬楼梯</li>
 <li>139.单词拆分</li>
@@ -3278,16 +3314,17 @@
 <li>2312.卖木头块</li>
 <li>2713.矩阵中严格递增的单元格数</li>
 <li>3040.相同分数的最大操作数目II</li>
+<li>3154.到达第K级台阶的方案数</li>
 <li>LCR126.斐波那契数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="交互">交互<a class="hash-link" aria-label="交互的直接链接" title="交互的直接链接" href="/docs/leetcode/#交互">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="交互">交互<a href="#交互" class="hash-link" aria-label="交互的直接链接" title="交互的直接链接">​</a></h3>
 <ul>
 <li>278.第一个错误的版本</li>
 <li>374.猜数字大小</li>
 <li>1095.山脉数组中查找目标值</li>
 <li>1237.找出给定方程的正整数解</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="矩阵">矩阵<a class="hash-link" aria-label="矩阵的直接链接" title="矩阵的直接链接" href="/docs/leetcode/#矩阵">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="矩阵">矩阵<a href="#矩阵" class="hash-link" aria-label="矩阵的直接链接" title="矩阵的直接链接">​</a></h3>
 <ul>
 <li>36.有效的数独</li>
 <li>37.解数独</li>
@@ -3360,7 +3397,7 @@
 <li>1349.参加考试的最大学生数</li>
 <li>1380.矩阵中的幸运数</li>
 <li>1439.有序矩阵中的第k个最小数组和</li>
-<li>1444.切披萨的方  案数</li>
+<li>1444.切披萨的方案数</li>
 <li>1463.摘樱桃II</li>
 <li>1572.矩阵对角线元素的和</li>
 <li>1595.连通两组点的最小成本</li>
@@ -3400,6 +3437,9 @@
 <li>2850.将石头分散到网格图的最少移动次数</li>
 <li>2923.找到冠军I</li>
 <li>2965.找出缺失和重复的数字</li>
+<li>3127.构造相同颜色的正方形</li>
+<li>3142.判断矩阵是否满足条件</li>
+<li>3148.矩阵中的最大得分</li>
 <li>面试题01.07.旋转矩阵</li>
 <li>面试题01.08.零矩阵</li>
 <li>面试题16.19.水域大小</li>
@@ -3407,12 +3447,12 @@
 <li>LCR146.螺旋遍历二维数组</li>
 <li>LCR166.珠宝的最高价值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="拒绝采样">拒绝采样<a class="hash-link" aria-label="拒绝采样的直接链接" title="拒绝采样的直接链接" href="/docs/leetcode/#拒绝采样">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="拒绝采样">拒绝采样<a href="#拒绝采样" class="hash-link" aria-label="拒绝采样的直接链接" title="拒绝采样的直接链接">​</a></h3>
 <ul>
 <li>470.用Rand7()实现Rand10()</li>
 <li>478.在圆内随机生成点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="快速选择">快速选择<a class="hash-link" aria-label="快速选择的直接链接" title="快速选择的直接链接" href="/docs/leetcode/#快速选择">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="快速选择">快速选择<a href="#快速选择" class="hash-link" aria-label="快速选择的直接链接" title="快速选择的直接链接">​</a></h3>
 <ul>
 <li>215.数组中的第K个最大元素</li>
 <li>324.摆动排序II</li>
@@ -3422,7 +3462,7 @@
 <li>面试题17.14.最小K个数</li>
 <li>LCR159.库存管理III</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="链表">链表<a class="hash-link" aria-label="链表的直接链接" title="链表的直接链接" href="/docs/leetcode/#链表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="链表">链表<a href="#链表" class="hash-link" aria-label="链表的直接链接" title="链表的直接链接">​</a></h3>
 <ul>
 <li>2.两数相加</li>
 <li>19.删除链表的倒数第N个结点</li>
@@ -3459,7 +3499,7 @@
 <li>460.LFU缓存</li>
 <li>622.设计循环队列</li>
 <li>641.设计循环双端队列</li>
-<li>705.设计  哈希集合</li>
+<li>705.设计哈希集合</li>
 <li>706.设计哈希映射</li>
 <li>707.设计链表</li>
 <li>725.分隔链表</li>
@@ -3481,7 +3521,7 @@
 <li>LCR155.将二叉搜索树转化为排序的双向链表</li>
 <li>LCR171.训练计划V</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="枚举">枚举<a class="hash-link" aria-label="枚举的直接链接" title="枚举的直接链接" href="/docs/leetcode/#枚举">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="枚举">枚举<a href="#枚举" class="hash-link" aria-label="枚举的直接链接" title="枚举的直接链接">​</a></h3>
 <ul>
 <li>204.计数质数</li>
 <li>479.最大回文数乘积</li>
@@ -3507,17 +3547,21 @@
 <li>2437.有效时间的数目</li>
 <li>2552.统计上升四元组</li>
 <li>2605.从两个数字数组里生成最小数字</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2735.收集巧克力</li>
 <li>2761.和等于目标值的质数对</li>
 <li>2765.最长交替子数组</li>
 <li>2844.生成特殊数字的最少操作</li>
+<li>2860.让所有学生保持开心的分组方法数</li>
 <li>2928.给小朋友们分糖果I</li>
 <li>2951.找出峰值</li>
 <li>2959.关闭分部的可行集合数目</li>
 <li>2970.统计移除递增子数组的数目I</li>
+<li>3127.构造相同颜色的正方形</li>
+<li>3132.找出与数组相加的整数II</li>
 <li>面试题16.18.模式匹配</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="模拟">模拟<a class="hash-link" aria-label="模拟的直接链接" title="模拟的直接链接" href="/docs/leetcode/#模拟">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="模拟">模拟<a href="#模拟" class="hash-link" aria-label="模拟的直接链接" title="模拟的直接链接">​</a></h3>
 <ul>
 <li>43.字符串相乘</li>
 <li>54.螺旋矩阵</li>
@@ -3565,7 +3609,7 @@
 <li>1806.还原排列的最少操作步数</li>
 <li>1823.找出游戏的获胜者</li>
 <li>1894.找到需要补充粉笔的学生编号</li>
-<li>1945. 字符串转化后的各位数字之和</li>
+<li>1945.字符串转化后的各位数字之和</li>
 <li>2011.执行操作后的变量值</li>
 <li>2022.将一维数组转变成二维数组</li>
 <li>2028.找出缺失的观测数据</li>
@@ -3601,10 +3645,11 @@
 <li>2974.最小数字游戏</li>
 <li>3038.相同分数的最大操作数目I</li>
 <li>3072.将元素分配到两个数组中II</li>
+<li>3174.清除数字</li>
 <li>LCP50.宝石补给</li>
 <li>LCR146.螺旋遍历二维数组</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="脑筋急转弯">脑筋急转弯<a class="hash-link" aria-label="脑筋急转弯的直接链接" title="脑筋急转弯的直接链接" href="/docs/leetcode/#脑筋急转弯">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="脑筋急转弯">脑筋急转弯<a href="#脑筋急转弯" class="hash-link" aria-label="脑筋急转弯的直接链接" title="脑筋急转弯的直接链接">​</a></h3>
 <ul>
 <li>292.Nim游戏</li>
 <li>319.灯泡开关</li>
@@ -3614,12 +3659,12 @@
 <li>2731.移动机器人</li>
 <li>LCR189.设计机械累加器</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="欧拉回路">欧拉回路<a class="hash-link" aria-label="欧拉回路的直接链接" title="欧拉回路的直接链接" href="/docs/leetcode/#欧拉回路">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="欧拉回路">欧拉回路<a href="#欧拉回路" class="hash-link" aria-label="欧拉回路的直接链接" title="欧拉回路的直接链接">​</a></h3>
 <ul>
 <li>332.重新安排行程</li>
 <li>753.破解保险箱</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="排序">排序<a class="hash-link" aria-label="排序的直接链接" title="排序的直接链接" href="/docs/leetcode/#排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="排序">排序<a href="#排序" class="hash-link" aria-label="排序的直接链接" title="排序的直接链接">​</a></h3>
 <ul>
 <li>15.三数之和</li>
 <li>16.最接近的三数之和</li>
@@ -3709,7 +3754,7 @@
 <li>977.有序数组的平方</li>
 <li>987.二叉树的垂序遍历</li>
 <li>1005.K次取反后最大化的数组和</li>
-<li>1030.距离顺序排列矩阵单元格</li>
+<li>1030.距 离顺序排列矩阵单元格</li>
 <li>1040.移动石子直到连续II</li>
 <li>1048.最长字符串链</li>
 <li>1051.高度检查器</li>
@@ -3725,7 +3770,7 @@
 <li>1262.可被三整除的最大和</li>
 <li>1268.搜索推荐系统</li>
 <li>1300.转变数组后最接近目标值的数组和</li>
-<li>1305.两棵二叉搜索树  中的所有元素</li>
+<li>1305.两棵二叉搜索树中的所有元素</li>
 <li>1329.将矩阵按对角线排序</li>
 <li>1331.数组序号转换</li>
 <li>1337.矩阵中战斗力最弱的K行</li>
@@ -3757,7 +3802,7 @@
 <li>1818.绝对差值和</li>
 <li>1833.雪糕的最大数量</li>
 <li>1838.最高频元素的频数</li>
-<li>1851.包含每个查询的最小区间</li>
+<li>1851. 包含每个查询的最小区间</li>
 <li>1877.数组中最大数对和的最小值</li>
 <li>1921.消灭怪物的最大数量</li>
 <li>1984.学生分数的最小差值</li>
@@ -3803,6 +3848,7 @@
 <li>2679.矩阵中的和</li>
 <li>2681.英雄的力量</li>
 <li>2706.购买两块巧克力</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2713.矩阵中严格递增的单元格数</li>
 <li>2731.移动机器人</li>
 <li>2736.最大和查询</li>
@@ -3811,11 +3857,13 @@
 <li>2779.数组的最大美丽值</li>
 <li>2813.子序列最大优雅度</li>
 <li>2824.统计和小于目标的下标对数目</li>
+<li>2860.让所有学生保持开心的分组方法数</li>
 <li>2952.需要添加的硬币的最小数量</li>
 <li>2974.最小数字游戏</li>
 <li>3011.判断一个数组是否可以变为有序</li>
 <li>3098.求出所有子序列的能量和</li>
 <li>3111.覆盖所有点的最少矩形数目</li>
+<li>3132.找出与数组相加的整数II</li>
 <li>3143.正方形中的最多点数</li>
 <li>面试题01.02.判定是否互为字符重排</li>
 <li>面试题08.13.堆箱子</li>
@@ -3832,7 +3880,7 @@
 <li>LCR159.库存管理III</li>
 <li>LCR186.文物朝代判断</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="前缀和">前缀和<a class="hash-link" aria-label="前缀和的直接链接" title="前缀和的直接链接" href="/docs/leetcode/#前缀和">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="前缀和">前缀和<a href="#前缀和" class="hash-link" aria-label="前缀和的直接链接" title="前缀和的直接链接">​</a></h3>
 <ul>
 <li>209.长度最小的子数组</li>
 <li>238.除自身以外数组的乘积</li>
@@ -3850,7 +3898,7 @@
 <li>813.最大平均值和的分组</li>
 <li>862.和至少为K的最短子数组</li>
 <li>930.和相同的二元子数组</li>
-<li>974.和可被K整除的子数组</li>
+<li>974.和可被K整 除的子数组</li>
 <li>995.K连续位的最小翻转次数</li>
 <li>1000.合并石头的最低成本</li>
 <li>1004.最大连续1的个数III</li>
@@ -3905,19 +3953,20 @@
 <li>2681.英雄的力量</li>
 <li>2731.移动机器人</li>
 <li>3096.得到更多分数的最少关卡数目</li>
+<li>3152.特殊数组II</li>
 <li>面试题17.05.字母与数字</li>
 <li>LCR008.长度最小的子数组</li>
 <li>LCR010.和为K的子数组</li>
 <li>LCR011.连续数组</li>
 <li>LCR012.寻找数组的中心下标</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="扫描线">扫描线<a class="hash-link" aria-label="扫描线的直接链接" title="扫描线的直接链接" href="/docs/leetcode/#扫描线">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="扫描线">扫描线<a href="#扫描线" class="hash-link" aria-label="扫描线的直接链接" title="扫描线的直接链接">​</a></h3>
 <ul>
 <li>218.天际线问题</li>
 <li>391.完美矩形</li>
 <li>1851.包含每个查询的最小区间</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="设计">设计<a class="hash-link" aria-label="设计的直接链接" title="设计的直接链接" href="/docs/leetcode/#设计">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="设计">设计<a href="#设计" class="hash-link" aria-label="设计的直接链接" title="设计的直接链接">​</a></h3>
 <ul>
 <li>146.LRU缓存</li>
 <li>155.最小栈</li>
@@ -3944,7 +3993,7 @@
 <li>622.设计循环队列</li>
 <li>641.设计循环双端队列</li>
 <li>676.实现一个魔法字典</li>
-<li>705.设计哈希集合</li>
+<li>705.设计哈 希集合</li>
 <li>706.设计哈希映射</li>
 <li>707.设计链表</li>
 <li>715.Range模块</li>
@@ -3968,7 +4017,7 @@
 <li>1603.设计停车系统</li>
 <li>1656.设计有序流</li>
 <li>1670.设计前中后队列</li>
-<li>1797.设计 一个验证系统</li>
+<li>1797.设计一个验证系统</li>
 <li>1825.求出MK平均值</li>
 <li>1993.树上的操作</li>
 <li>2013.检测正方形</li>
@@ -3987,7 +4036,7 @@
 <li>LCR156.序列化与反序列化二叉树</li>
 <li>LCR184.设计自助结算系统</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="深度优先搜索">深度优先搜索<a class="hash-link" aria-label="深度优先搜索的直接链接" title="深度优先搜索的直接链接" href="/docs/leetcode/#深度优先搜索">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="深度优先搜索">深度优先搜索<a href="#深度优先搜索" class="hash-link" aria-label="深度优先搜索的直接链接" title="深度优先搜索的直接链接">​</a></h3>
 <ul>
 <li>94.二叉树的中序遍历</li>
 <li>98.验证二叉搜索树</li>
@@ -4018,7 +4067,7 @@
 <li>235.二叉搜索树的最近公共祖先</li>
 <li>236.二叉树的最近公共祖先</li>
 <li>257.二叉树的所有路径</li>
-<li>297.二叉树的序列化与  反序列化</li>
+<li>297.二叉树的序列化与反序列化</li>
 <li>310.最小高度树</li>
 <li>329.矩阵中的最长递增路径</li>
 <li>332.重新安排行程</li>
@@ -4156,7 +4205,7 @@
 <li>面试题04.08.首个共同祖先</li>
 <li>面试题16.19.水域大小</li>
 <li>面试题17.12.BiNode</li>
-<li>LCP07.传递信息</li>
+<li>LCP07.传递信 息</li>
 <li>LCR053.二叉搜索树中的中序后继</li>
 <li>LCR114.火星词典</li>
 <li>LCR130.衣橱整理</li>
@@ -4165,7 +4214,7 @@
 <li>LCR156.序列化与反序列化二叉树</li>
 <li>LCR174.寻找二叉搜索树中的目标节点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="树">树<a class="hash-link" aria-label="树的直接链接" title="树的直接链接" href="/docs/leetcode/#树">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="树">树<a href="#树" class="hash-link" aria-label="树的直接链接" title="树的直接链接">​</a></h3>
 <ul>
 <li>94.二叉树的中序遍历</li>
 <li>95.不同的二叉搜索树II</li>
@@ -4224,7 +4273,7 @@
 <li>590.N叉树的后序遍历</li>
 <li>606.根据二叉树创建字符串</li>
 <li>617.合并二叉树</li>
-<li>623.  在二叉树中增加一行</li>
+<li>623.在二叉树中增加一行</li>
 <li>637.二叉树的层平均值</li>
 <li>652.寻找重复的子树</li>
 <li>653.两数之和IV-输入二叉搜索树</li>
@@ -4256,7 +4305,7 @@
 <li>1008.前序遍历构造二叉搜索树</li>
 <li>1026.节点与其祖先之间的最大差值</li>
 <li>1028.从先序遍历还原二叉树</li>
-<li>1038.从二叉搜索树到更大和树</li>
+<li>1038.从二叉搜索树到更 大和树</li>
 <li>1080.根到叶路径上的不足节点</li>
 <li>1104.二叉树寻路</li>
 <li>1110.删点成林</li>
@@ -4273,7 +4322,7 @@
 <li>1377.T秒后青蛙的位置</li>
 <li>1379.找出克隆二叉树中的相同节点</li>
 <li>1382.将二叉搜索树变平衡</li>
-<li>1448.统计二叉树中好节  点的数目</li>
+<li>1448.统计二叉树中好节点的数目</li>
 <li>1457.二叉树中的伪回文路径</li>
 <li>1483.树节点的第K个祖先</li>
 <li>1600.王位继承顺序</li>
@@ -4302,7 +4351,7 @@
 <li>2673.使二叉树所有路径值相等的最小代价</li>
 <li>2867.统计树中的合法路径数目</li>
 <li>3067.在带权树网络中统计可连接服务器对数目</li>
-<li>面试题04.06.后继者</li>
+<li>面试题04.06.后  继者</li>
 <li>面试题04.08.首个共同祖先</li>
 <li>面试题04.09.二叉搜索树序列</li>
 <li>面试题17.12.BiNode</li>
@@ -4313,7 +4362,7 @@
 <li>LCR156.序列化与反序列化二叉树</li>
 <li>LCR174.寻找二叉搜索树中的目标节点</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="树状数组">树状数组<a class="hash-link" aria-label="树状数组的直接链接" title="树状数组的直接链接" href="/docs/leetcode/#树状数组">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="树状数组">树状数组<a href="#树状数组" class="hash-link" aria-label="树状数组的直接链接" title="树状数组的直接链接">​</a></h3>
 <ul>
 <li>218.天际线问题</li>
 <li>307.区域和检索-数组可修改</li>
@@ -4324,11 +4373,12 @@
 <li>1409.查询带键的排列</li>
 <li>2552.统计上升四元组</li>
 <li>2736.最大和查询</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>3072.将元素分配到两个数组中II</li>
 <li>面试题10.10.数字流的秩</li>
 <li>LCR170.交易逆序对的总数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="数据流">数据流<a class="hash-link" aria-label="数据流的直接链接" title="数据流的直接链接" href="/docs/leetcode/#数据流">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="数据流">数据流<a href="#数据流" class="hash-link" aria-label="数据流的直接链接" title="数据流的直接链接">​</a></h3>
 <ul>
 <li>295.数据流的中位数</li>
 <li>901.股票价格跨度</li>
@@ -4342,7 +4392,7 @@
 <li>面试题17.20.连续中值</li>
 <li>LCR041.数据流中的移动平均值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="数论">数论<a class="hash-link" aria-label="数论的直接链接" title="数论的直接链接" href="/docs/leetcode/#数论">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="数论">数论<a href="#数论" class="hash-link" aria-label="数论的直接链接" title="数论的直接链接">​</a></h3>
 <ul>
 <li>204.计数质数</li>
 <li>258.各位相加</li>
@@ -4370,7 +4420,7 @@
 <li>2867.统计树中的合法路径数目</li>
 <li>3115.质数的最大距离</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="数学">数学<a class="hash-link" aria-label="数学的直接链接" title="数学的直接链接" href="/docs/leetcode/#数学">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="数学">数学<a href="#数学" class="hash-link" aria-label="数学的直接链接" title="数学的直接链接">​</a></h3>
 <ul>
 <li>2.两数相加</li>
 <li>7.整数反转</li>
@@ -4469,7 +4519,7 @@
 <li>679.24点游戏</li>
 <li>710.黑名单中的随机数</li>
 <li>728.自除数</li>
-<li>738.单调递增的数字</li>
+<li>738.单调递增的数  字</li>
 <li>762.二进制表示中质数个计算置位</li>
 <li>779.第K个语法符号</li>
 <li>780.到达终点</li>
@@ -4547,7 +4597,7 @@
 <li>1716.计算力扣银行的钱</li>
 <li>1739.放置盒子</li>
 <li>1742.盒子中小球的最大数量</li>
-<li>1753.移除石子 的最大得分</li>
+<li>1753.移除石子的最大得分</li>
 <li>1759.统计同质子字符串的数目</li>
 <li>1766.互质树</li>
 <li>1780.判断一个数字是否可以表示成三的幂的和</li>
@@ -4576,7 +4626,7 @@
 <li>2409.统计共同度过的日子数</li>
 <li>2413.最小偶倍数</li>
 <li>2427.公因子的数目</li>
-<li>2447.最大公因数等于K的子数组数目</li>
+<li>2447.最大公  因数等于K的子数组数目</li>
 <li>2455.可被三整除的偶数的平均值</li>
 <li>2457.美丽整数的最小增量</li>
 <li>2469.温度转换</li>
@@ -4606,6 +4656,7 @@
 <li>2652.倍数求和</li>
 <li>2681.英雄的力量</li>
 <li>2698.求一个整数的惩罚数</li>
+<li>2719.统计整数数目</li>
 <li>2739.总行驶距离</li>
 <li>2748.美丽下标对的数目</li>
 <li>2761.和等于目标值的质数对</li>
@@ -4623,6 +4674,8 @@
 <li>3101.交替子数组计数</li>
 <li>3115.质数的最大距离</li>
 <li>3128.直角三角形</li>
+<li>3153.所有数对中数位不同之和</li>
+<li>3154.到达第K级台阶的方案数</li>
 <li>面试题01.07.旋转矩阵</li>
 <li>面试题05.02.二进制数转字符串</li>
 <li>面试题16.03.交点</li>
@@ -4635,7 +4688,7 @@
 <li>LCR036.逆波兰表达式求值</li>
 <li>LCR126.斐波那契数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="数组">数组<a class="hash-link" aria-label="数组的直接链接" title="数组的直接链接" href="/docs/leetcode/#数组">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="数组">数组<a href="#数组" class="hash-link" aria-label="数组的直接链接" title="数组的直接链接">​</a></h3>
 <ul>
 <li>1.两数之和</li>
 <li>4.寻找两个正序数组的中位数</li>
@@ -4684,7 +4737,7 @@
 <li>106.从中序与后序遍历序列构造二叉树</li>
 <li>108.将有序数组转换为二叉搜索树</li>
 <li>118.杨辉三角</li>
-<li>119.杨辉三角II</li>
+<li>119.杨辉  三角II</li>
 <li>120.三角形最小路径和</li>
 <li>121.买卖股票的最佳时机</li>
 <li>122.买卖股票的最佳时机II</li>
@@ -4708,7 +4761,7 @@
 <li>174.地下城游戏</li>
 <li>179.最大数</li>
 <li>188.买卖股票的最佳时机IV</li>
-<li>189.轮转数 组</li>
+<li>189.轮转数组</li>
 <li>198.打家劫舍</li>
 <li>200.岛屿数量</li>
 <li>204.计数质数</li>
@@ -4948,7 +5001,7 @@
 <li>907.子数组的最小值之和</li>
 <li>908.最小差值I</li>
 <li>909.蛇梯棋</li>
-<li>911.在线 选举</li>
+<li>911.在线选举</li>
 <li>912.排序数组</li>
 <li>914.卡牌分组</li>
 <li>915.分割数组</li>
@@ -5003,10 +5056,11 @@
 <li>1023.驼峰式匹配</li>
 <li>1024.视频拼接</li>
 <li>1027.最长等差数列</li>
-<li>1030.  距离顺序排列矩阵单元格</li>
+<li>1030.距离顺序排列矩阵单元格</li>
 <li>1031.两个非重叠子数组的最大和</li>
 <li>1032.字符流</li>
 <li>1034.边界着色</li>
+<li>1035.不相交的线</li>
 <li>1036.逃离大迷宫</li>
 <li>1039.多边形三角剖分的最低得分</li>
 <li>1040.移动石子直到连续II</li>
@@ -5043,6 +5097,7 @@
 <li>1170.比较字符串最小字母出现频次</li>
 <li>1177.构建回文串检测</li>
 <li>1184.公交站间的距离</li>
+<li>1186.删除一次得到子数组最大和</li>
 <li>1187.使数组严格递增</li>
 <li>1200.最小绝对差</li>
 <li>1202.交换字符串中的元素</li>
@@ -5057,7 +5112,7 @@
 <li>1232.缀点成线</li>
 <li>1233.删除子文件夹</li>
 <li>1235.规划兼职工作</li>
-<li>1239.串联字符串的最大 长度</li>
+<li>1239.串联字符串的最大长度</li>
 <li>1250.检查「好数组」</li>
 <li>1252.奇数值单元格的数目</li>
 <li>1253.重构2行二进制矩阵</li>
@@ -5106,7 +5161,7 @@
 <li>1465.切割后面积最大的蛋糕</li>
 <li>1470.重新排列数组</li>
 <li>1475.商品折扣后的最终价格</li>
-<li>1480.一维数组  的动态和</li>
+<li>1480.一维数组的动态和</li>
 <li>1482.制作m束花所需的最少天数</li>
 <li>1487.保证文件名唯一</li>
 <li>1488.避免洪水泛滥</li>
@@ -5178,7 +5233,7 @@
 <li>1760.袋子里最少数目的球</li>
 <li>1764.通过连接另一个数组的子数组得到一个数组</li>
 <li>1765.地图中的最高点</li>
-<li>1766.互质树</li>
+<li>1766.互 质树</li>
 <li>1769.移动所有球到每个盒子所需的最小操作数</li>
 <li>1773.统计匹配检索规则的物品数量</li>
 <li>1774.最接近目标价格的甜点成本</li>
@@ -5246,7 +5301,7 @@
 <li>2049.统计最高分的节点数目</li>
 <li>2050.并行课程III</li>
 <li>2055.蜡烛之间的盘子</li>
-<li>2079.给植  物浇水</li>
+<li>2079.给植物浇水</li>
 <li>2085.统计出现过一次的公共字符串</li>
 <li>2100.适合野炊的日子</li>
 <li>2101.引爆最多的炸弹</li>
@@ -5273,7 +5328,7 @@
 <li>2312.卖木头块</li>
 <li>2319.判断矩阵是否是一个X矩阵</li>
 <li>2335.装满杯子需要的最短总时长</li>
-<li>2341.数组能形成多少数对</li>
+<li>2341.数  组能形成多少数对</li>
 <li>2342.数位和相等数对的最大和</li>
 <li>2347.最好的扑克手牌</li>
 <li>2352.相等行列对</li>
@@ -5385,11 +5440,12 @@
 <li>2684.矩阵中移动的最大次数</li>
 <li>2706.购买两块巧克力</li>
 <li>2707.字符串中的额外字符</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2711.对角线上不同值的数量差</li>
 <li>2713.矩阵中严格递增的单元格数</li>
 <li>2731.移动机器人</li>
 <li>2735.收集巧克力</li>
-<li>2736.  最大和查询</li>
+<li>2736.最大和查询</li>
 <li>2740.找出分区值</li>
 <li>2741.特别的排列</li>
 <li>2742.给墙壁刷油漆</li>
@@ -5413,12 +5469,14 @@
 <li>2831.找出最长等值子数组</li>
 <li>2850.将石头分散到网格图的最少移动次数</li>
 <li>2859.计算K置位下标对应元素的和</li>
+<li>2860.让所有学生保持开心的分组方法数</li>
 <li>2861.最大合金数</li>
 <li>2865.美丽塔I</li>
 <li>2866.美丽塔II</li>
 <li>2908.元素和最小的山形三元组I</li>
 <li>2917.找出数组中的K-or值</li>
 <li>2923.找到冠军I</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>2951.找出峰值</li>
 <li>2952.需要添加的硬币的最小数量</li>
 <li>2956.找到两个数组中的公共元素</li>
@@ -5436,10 +5494,20 @@
 <li>3098.求出所有子序列的能量和</li>
 <li>3101.交替子数组计数</li>
 <li>3111.覆盖所有点的最少矩形数目</li>
-<li>3112.访问消失节点的最少时 间</li>
+<li>3112.访问消失节点的最少时间</li>
 <li>3115.质数的最大距离</li>
+<li>3117.划分数组得到最小的值之和</li>
+<li>3127.构造相同颜色的正方形</li>
 <li>3128.直角三角形</li>
+<li>3131.找出与数组相加的整数I</li>
+<li>3132.找出与数组相加的整数II</li>
+<li>3142.判断矩阵是否满足条件</li>
 <li>3143.正方形中的最多点数</li>
+<li>3148.矩阵中的最大得分</li>
+<li>3151.特殊数组I</li>
+<li>3152.特殊数组II</li>
+<li>3153.所有数对中数位不同之和</li>
+<li>3176.求出最长好子序列I</li>
 <li>面试题01.07.旋转矩阵</li>
 <li>面试题01.08.零矩阵</li>
 <li>面试题08.03.魔术索引</li>
@@ -5451,7 +5519,7 @@
 <li>面试题17.10.主要元素</li>
 <li>面试题17.11.单词距离</li>
 <li>面试题17.13.恢复空格</li>
-<li>面试题17.14.最小K个数</li>
+<li>面试题17.14.最小K  个数</li>
 <li>面试题17.19.消失的两个数字</li>
 <li>面试题17.21.直方图的水量</li>
 <li>LCP06.拿硬币</li>
@@ -5493,7 +5561,7 @@
 <li>LCR178.训练计划VI</li>
 <li>LCR186.文物朝代判断</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="双向链表">双向链表<a class="hash-link" aria-label="双向链表的直接链接" title="双向链表的直接链接" href="/docs/leetcode/#双向链表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="双向链表">双向链表<a href="#双向链表" class="hash-link" aria-label="双向链表的直接链接" title="双向链表的直接链接">​</a></h3>
 <ul>
 <li>146.LRU缓存</li>
 <li>430.扁平化多级双向链表</li>
@@ -5502,7 +5570,7 @@
 <li>1797.设计一个验证系统</li>
 <li>LCR155.将二叉搜索树转化为排序的双向链表</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="双指针">双指针<a class="hash-link" aria-label="双指针的直接链接" title="双指针的直接链接" href="/docs/leetcode/#双指针">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="双指针">双指针<a href="#双指针" class="hash-link" aria-label="双指  针的直接链接" title="双指针的直接链接">​</a></h3>
 <ul>
 <li>5.最长回文子串</li>
 <li>11.盛最多水的容器</li>
@@ -5624,6 +5692,7 @@
 <li>2824.统计和小于目标的下标对数目</li>
 <li>2938.区分黑球与白球</li>
 <li>2970.统计移除递增子数组的数目I</li>
+<li>3132.找出与数组相加的整数II</li>
 <li>面试题01.05.一次编辑</li>
 <li>面试题02.01.移除重复节点</li>
 <li>面试题17.20.连续中值</li>
@@ -5635,12 +5704,12 @@
 <li>LCR140.训练计划II</li>
 <li>LCR171.训练计划V</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="水塘抽样">水塘抽样<a class="hash-link" aria-label="水塘抽样的直接链接" title="水塘抽样的直接链接" href="/docs/leetcode/#水塘抽样">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="水塘抽样">水塘抽样<a href="#水塘抽样" class="hash-link" aria-label="水塘抽样的直接链接" title="水塘抽样的直接链接">​</a></h3>
 <ul>
 <li>398.随机数索引</li>
 <li>519.随机翻转矩阵</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="随机化">随机化<a class="hash-link" aria-label="随机化的直接链接" title="随机化的直接链接" href="/docs/leetcode/#随机化">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="随机化">随机化<a href="#随机化" class="hash-link" aria-label="随机化的直接链接" title="随机化的直接链接">​</a></h3>
 <ul>
 <li>380.O(1)时间插入、删除和获取随机元素</li>
 <li>381.O(1)时间插入、删除和获取随机元素-允许重复</li>
@@ -5652,7 +5721,7 @@
 <li>528.按权重随机选择</li>
 <li>710.黑名单中的随机数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="拓扑排序">拓扑排序<a class="hash-link" aria-label="拓扑排序的直接链接" title="拓扑排序的直接链接" href="/docs/leetcode/#拓扑排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="拓扑排序">拓扑排序<a href="#拓扑排序" class="hash-link" aria-label="拓扑排序的直接链接" title="拓扑排序的直接链接">​</a></h3>
 <ul>
 <li>207.课程表</li>
 <li>210.课程表II</li>
@@ -5671,7 +5740,7 @@
 <li>LCR114.火星词典</li>
 <li>LCR115.序列重建</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="贪心">贪心<a class="hash-link" aria-label="贪心的直接链接" title="贪心的直接链接" href="/docs/leetcode/#贪心">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="贪心">贪心<a href="#贪心" class="hash-link" aria-label="贪心的直接链接" title="贪心的直接链接">​</a></h3>
 <ul>
 <li>11.盛最多水的容器</li>
 <li>44.通配符匹配</li>
@@ -5699,7 +5768,7 @@
 <li>581.最短无序连续子数组</li>
 <li>605.种花问题</li>
 <li>611.有效三角形的个数</li>
-<li>621. 任务调度器</li>
+<li>621.任务调度器</li>
 <li>630.课程表III</li>
 <li>646.最长数对链</li>
 <li>649.Dota2参议院</li>
@@ -5809,7 +5878,7 @@
 <li>2578.最小和分割</li>
 <li>2587.重排数组以得到最大前缀分数</li>
 <li>2589.完成所有任务的最少时间</li>
-<li>2591.将钱分给最多的儿童</li>
+<li>2591. 将钱分给最多的儿童</li>
 <li>2598.执行操作后的最大MEX</li>
 <li>2600.K件物品的最大和</li>
 <li>2601.质数减法运算</li>
@@ -5820,6 +5889,7 @@
 <li>2663.字典序最小的美丽字符串</li>
 <li>2673.使二叉树所有路径值相等的最小代价</li>
 <li>2697.字典序最小回文串</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2712.使所有字符相等的最小成本</li>
 <li>2734.执行子串操作后的字典序最小字符串</li>
 <li>2789.合并后数组中的最大元素</li>
@@ -5836,15 +5906,15 @@
 <li>LCP40.心算挑战</li>
 <li>LCR019.验证回文串II</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="桶排序">桶排序<a class="hash-link" aria-label="桶排序的直接链接" title="桶排序的直接链接" href="/docs/leetcode/#桶排序">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="桶排序">桶排序<a href="#桶排序" class="hash-link" aria-label="桶排序的直接链接" title="桶排序的直接链接">​</a></h3>
 <ul>
 <li>164.最大间距</li>
 <li>220.存在重复元素III</li>
 <li>347.前K个高频元素</li>
 <li>692.前K个高频单词</li>
-<li>912.排 序数组</li>
+<li>912.排序数组</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="图">图<a class="hash-link" aria-label="图的直接链接" title="图的直接链接" href="/docs/leetcode/#图">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="图">图<a href="#图" class="hash-link" aria-label="图的直接链接" title="图的直接链接">​</a></h3>
 <ul>
 <li>133.克隆图</li>
 <li>207.课程表</li>
@@ -5895,7 +5965,7 @@
 <li>2050.并行课程III</li>
 <li>2101.引爆最多的炸弹</li>
 <li>2115.从给定原材料中找到所有可以做出的菜</li>
-<li>2127.参加会议的最多员工 数</li>
+<li>2127.参加会议的最多员工数</li>
 <li>2192.有向无环图中一个节点的所有祖先</li>
 <li>2316.统计无向图中无法互相到达点对数</li>
 <li>2477.到达首都的最少油耗</li>
@@ -5907,14 +5977,14 @@
 <li>2642.设计可以求最短路径的图类</li>
 <li>2646.最小化旅行的价格总和</li>
 <li>2699.修改图中的边权</li>
-<li>2924.找到冠军II</li>
+<li>2924.找到  冠军II</li>
 <li>2959.关闭分部的可行集合数目</li>
 <li>3112.访问消失节点的最少时间</li>
 <li>LCP07.传递信息</li>
 <li>LCR114.火星词典</li>
 <li>LCR115.序列重建</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="位运算">位运算<a class="hash-link" aria-label="位运算的直接链接" title="位运算的直接链接" href="/docs/leetcode/#位运算">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="位运算">位运算<a href="#位运算" class="hash-link" aria-label="位运算的直接链接" title="位运算的直接链接">​</a></h3>
 <ul>
 <li>29.两数相除</li>
 <li>67.二进制求和</li>
@@ -6006,11 +6076,16 @@
 <li>2572.无平方子集计数</li>
 <li>2588.统计美丽子数组数目</li>
 <li>2595.奇偶位数</li>
+<li>2708.一个小组的最大实力值</li>
 <li>2741.特别的排列</li>
 <li>2859.计算K置位下标对应元素的和</li>
 <li>2917.找出数组中的K-or值</li>
 <li>2959.关闭分部的可行集合数目</li>
+<li>3007.价值和小于等于K的最大数字</li>
 <li>3011.判断一个数组是否可以变为有序</li>
+<li>3117.划分数组得到最小的值之和</li>
+<li>3133.数组最后一个元素的最小值</li>
+<li>3154.到达第K级台阶的方案数</li>
 <li>面试题05.02.二进制数转字符串</li>
 <li>面试题17.19.消失的两个数字</li>
 <li>LCR003.比特位计数</li>
@@ -6020,7 +6095,7 @@
 <li>LCR178.训练计划VI</li>
 <li>LCR189.设计机械累加器</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="线段树">线段树<a class="hash-link" aria-label="线段树的直接链接" title="线段树的直接链接" href="/docs/leetcode/#线段树">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="线段树">线段树<a href="#线段树" class="hash-link" aria-label="线段树的直接链接" title="线段树的直接链接">​</a></h3>
 <ul>
 <li>218.天际线问题</li>
 <li>307.区域和检索-数组可修改</li>
@@ -6035,10 +6110,12 @@
 <li>1687.从仓库到码头运输箱子</li>
 <li>2276.统计区间中的整数数目</li>
 <li>2736.最大和查询</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>3072.将元素分配到两个数组中II</li>
+<li>3117.划分数组得到最小的值之和</li>
 <li>LCR170.交易逆序对的总数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="有序集合">有序集合<a class="hash-link" aria-label="有序集合的直接链接" title="有序集合的直接链接" href="/docs/leetcode/#有序集合">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="有序集合">有序集合<a href="#有序集合" class="hash-link" aria-label="有序集合的直接链接" title="有序集合的直接链接">​</a></h3>
 <ul>
 <li>218.天际线问题</li>
 <li>220.存在重复元素III</li>
@@ -6050,7 +6127,7 @@
 <li>699.掉落的方块</li>
 <li>715.Range模块</li>
 <li>729.我的日程安排表I</li>
-<li>731.我的日程安排表II</li>
+<li>731.我的 日程安排表II</li>
 <li>855.考场就座</li>
 <li>895.最大频率栈</li>
 <li>1418.点菜展示表</li>
@@ -6067,7 +6144,7 @@
 <li>2763.所有子数组中不平衡数字之和</li>
 <li>LCR170.交易逆序对的总数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="栈">栈<a class="hash-link" aria-label="栈的直接链接" title="栈的直接链接" href="/docs/leetcode/#栈">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="栈">栈<a href="#栈" class="hash-link" aria-label="栈的直接链接" title="栈的直接链接">​</a></h3>
 <ul>
 <li>20.有效的括号</li>
 <li>32.最长有效括号</li>
@@ -6160,6 +6237,8 @@
 <li>2813.子序列最大优雅度</li>
 <li>2865.美丽塔I</li>
 <li>2866.美丽塔II</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
+<li>3174.清除数字</li>
 <li>面试题03.04.化栈为队</li>
 <li>面试题17.12.BiNode</li>
 <li>面试题17.21.直方图的水量</li>
@@ -6168,7 +6247,7 @@
 <li>LCR152.验证二叉搜索树的后序遍历序列</li>
 <li>LCR155.将二叉搜索树转化为排序的双向链表</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="状态压缩">状态压缩<a class="hash-link" aria-label="状态压缩的直接链接" title="状态压缩的直接链接" href="/docs/leetcode/#状态压缩">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="状态压缩">状态压缩<a href="#状态压缩" class="hash-link" aria-label="状态压缩的直接链接" title="状态压缩的直接链接">​</a></h3>
 <ul>
 <li>464.我能赢吗</li>
 <li>473.火柴拼正方形</li>
@@ -6191,7 +6270,7 @@
 <li>2572.无平方子集计数</li>
 <li>2741.特别的排列</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="字典树">字典树<a class="hash-link" aria-label="字典树的直接链接" title="字典树的直接链接" href="/docs/leetcode/#字典树">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="字典树">字典树<a href="#字典树" class="hash-link" aria-label="字典树的直接链接" title="字典树的直接链接">​</a></h3>
 <ul>
 <li>14.最长公共前缀</li>
 <li>139.单词拆分</li>
@@ -6205,7 +6284,7 @@
 <li>648.单词替换</li>
 <li>676.实现一个魔法字典</li>
 <li>692.前K个高频单词</li>
-<li>720.词典中最长的单词</li>
+<li>720.词典 中最长的单词</li>
 <li>745.前缀和后缀搜索</li>
 <li>792.匹配子序列的单词数</li>
 <li>1023.驼峰式匹配</li>
@@ -6218,7 +6297,7 @@
 <li>面试题17.13.恢复空格</li>
 <li>LCR067.数组中两个数的最大异或值</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="字符串">字符串<a class="hash-link" aria-label="字符串的直接链接" title="字符串的直接链接" href="/docs/leetcode/#字符串">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="字符串">字符串<a href="#字符串" class="hash-link" aria-label="字符串的直接链接" title="字符串的直接链接">​</a></h3>
 <ul>
 <li>3.无重复字符的最长子串</li>
 <li>5.最长回文子串</li>
@@ -6315,7 +6394,7 @@
 <li>516.最长回文子序列</li>
 <li>520.检测大写字母</li>
 <li>522.最长特殊序列II</li>
-<li>524.通过删除字母  匹配到字典里最长单词</li>
+<li>524.通过删除字母匹配到字典里最长单词</li>
 <li>535.TinyURL的加密与解密</li>
 <li>537.复数乘法</li>
 <li>539.最小时间差</li>
@@ -6374,14 +6453,14 @@
 <li>856.括号的分数</li>
 <li>859.亲密字符串</li>
 <li>884.两句话中的不常见单词</li>
-<li>890.查找和替换模 式</li>
+<li>890.查找和替换模式</li>
 <li>899.有序队列</li>
 <li>902.最大为N的数字组合</li>
 <li>917.仅仅反转字母</li>
 <li>921.使括号有效的最少添加</li>
 <li>925.长按键入</li>
 <li>926.将字符串翻转到单调递增</li>
-<li>929.独特的电子邮件地址</li>
+<li>929.独特的电子 邮件地址</li>
 <li>937.重新排列日志文件</li>
 <li>940.不同的子序列II</li>
 <li>942.增减字符串匹配</li>
@@ -6433,7 +6512,7 @@
 <li>1370.上升下降字符串</li>
 <li>1371.每个元音包含偶数次的最长子字符串</li>
 <li>1374.生成每种字符都是奇数个的字符串</li>
-<li>1392.最长快乐前缀</li>
+<li>1392.最长快 乐前缀</li>
 <li>1405.最长快乐字符串</li>
 <li>1408.数组中的字符串匹配</li>
 <li>1410.HTML实体解析器</li>
@@ -6523,7 +6602,7 @@
 <li>2456.最流行的视频创作者</li>
 <li>2472.不重叠回文子字符串的最大数目</li>
 <li>2478.完美分割的方案数</li>
-<li>2486.追加字符以获得子序列</li>
+<li>2486.追加字符以  获得子序列</li>
 <li>2490.回环句</li>
 <li>2496.数组中字符串的最大值</li>
 <li>2506.统计相似字符串对的数目</li>
@@ -6548,6 +6627,7 @@
 <li>2707.字符串中的额外字符</li>
 <li>2710.移除字符串中的尾随零</li>
 <li>2712.使所有字符相等的最小成本</li>
+<li>2719.统计整数数目</li>
 <li>2734.执行子串操作后的字典序最小字符串</li>
 <li>2744.最大字符串配对数目</li>
 <li>2788.按分隔符拆分字符串</li>
@@ -6560,9 +6640,12 @@
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
 <li>3106.满足距离约束且字典序最小的字符串</li>
 <li>3143.正方形中的最多点数</li>
+<li>3144.分割字符频率相等的最少子字符串</li>
+<li>3146.两个字符串的排列差</li>
+<li>3174.清除数字</li>
 <li>面试题01.02.判定是否互为字符重排</li>
 <li>面试题01.05.一次编辑</li>
-<li>面试题01.09.字  符串轮转</li>
+<li>面试题01.09.字符串轮转</li>
 <li>面试题05.02.二进制数转字符串</li>
 <li>面试题10.02.变位词组</li>
 <li>面试题16.18.模式匹配</li>
@@ -6582,7 +6665,7 @@
 <li>LCR165.解密数字</li>
 <li>LCR169.招式拆解II</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="字符串匹配">字符串匹配<a class="hash-link" aria-label="字符串匹配的直接链接" title="字符串匹配的直接链接" href="/docs/leetcode/#字符串匹配">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="字符串匹配">字符串匹配<a href="#字符串匹配" class="hash-link" aria-label="字符串匹配的直接链接" title="字符串匹配的直接链接">​</a></h3>
 <ul>
 <li>28.找出字符串中第一个匹配项的下标</li>
 <li>214.最短回文串</li>
@@ -6599,7 +6682,7 @@
 <li>2185.统计包含给定前缀的字符串</li>
 <li>面试题01.09.字符串轮转</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="组合数学">组合数学<a class="hash-link" aria-label="组合数学的直接链接" title="组合数学的直接链接" href="/docs/leetcode/#组合数学">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="组合数学">组合数学<a href="#组合数学" class="hash-link" aria-label="组合数学的直接链接" title="组合数学的直接链接">​</a></h3>
 <ul>
 <li>62.不同路径</li>
 <li>1201.丑数III</li>
@@ -6608,8 +6691,9 @@
 <li>2597.美丽子集的数目</li>
 <li>2928.给小朋友们分糖果I</li>
 <li>3128.直角三角形</li>
+<li>3154.到达第K级台阶的方案数</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="最短路">最短路<a class="hash-link" aria-label="最短路的直接链接" title="最短路的直接链接" href="/docs/leetcode/#最短路">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="最短路">最短路<a href="# 最短路" class="hash-link" aria-label="最短路的直接链接" title="最短路的直接链接">​</a></h3>
 <ul>
 <li>743.网络延迟时间</li>
 <li>787.K站中转内最便宜的航班</li>
@@ -6623,8 +6707,8 @@
 <li>2959.关闭分部的可行集合数目</li>
 <li>3112.访问消失节点的最少时间</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_s992" id="难度索引">难度索引<a class="hash-link" aria-label="难度索引的直接链接" title="难度索引的直接链接" href="/docs/leetcode/#难度索引">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="easy">Easy<a class="hash-link" aria-label="Easy的直接链接" title="Easy的直接链接" href="/docs/leetcode/#easy">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_A997" id="难度索引">难度索引<a href="#难度索引" class="hash-link" aria-label="难度索引的直接链接" title="难度索引的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="easy">Easy<a href="#easy" class="hash-link" aria-label="Easy的直接链接" title="Easy的直接链接">​</a></h3>
 <ul>
 <li>1.两数之和</li>
 <li>9.回文数</li>
@@ -6779,7 +6863,7 @@
 <li>819.最常见的单词</li>
 <li>821.字符的最短距离</li>
 <li>824.山羊拉丁文</li>
-<li>830.较大分组的 位置</li>
+<li>830.较大分组的位置</li>
 <li>832.翻转图像</li>
 <li>836.矩形重叠</li>
 <li>844.比较含退格的字符串</li>
@@ -6823,7 +6907,6 @@
 <li>1021.删除最外层的括号</li>
 <li>1025.除数博弈</li>
 <li>1030.距离顺序排列矩阵单元格</li>
-<li>1035.不相交的线</li>
 <li>1046.最后一块石头的重量</li>
 <li>1047.删除字符串中的所有相邻重复项</li>
 <li>1051.高度检查器</li>
@@ -6840,8 +6923,7 @@
 <li>1175.质数排列</li>
 <li>1184.公交站间的距离</li>
 <li>1185.一周中的第几天</li>
-<li>1186.删除一次得到子数组最大和</li>
-<li>1189.“气球”的最大数量</li>
+<li>1189.“气球”的最大数 量</li>
 <li>1200.最小绝对差</li>
 <li>1207.独一无二的出现次数</li>
 <li>1217.玩筹码</li>
@@ -6889,7 +6971,7 @@
 <li>1619.删除某些元素后的数组均值</li>
 <li>1624.两个相同字符之间的最长子字符串</li>
 <li>1629.按键持续时间最长的键</li>
-<li>1636.按照频率将数组升序排序</li>
+<li>1636.按照频率将数组升  序排序</li>
 <li>1637.两点之间不包含任何点的最宽垂直区域</li>
 <li>1640.能否连接形成数组</li>
 <li>1646.获取生成数组中的最大值</li>
@@ -6930,11 +7012,11 @@
 <li>1827.最少操作使数组递增</li>
 <li>1832.判断句子是否为全字母句</li>
 <li>1893.检查是否区域内所有整数都被覆盖</li>
-<li>1945.字符 串转化后的各位数字之和</li>
+<li>1945.字符串转化后的各位数字之和</li>
 <li>1971.寻找图中是否存在路径</li>
 <li>1984.学生分数的最小差值</li>
 <li>1991.找到数组的中间位置</li>
-<li>1995.统计特殊四元组</li>
+<li>1995.统计特殊  四元组</li>
 <li>2000.反转单词前缀</li>
 <li>2006.差的绝对值为K的数对数目</li>
 <li>2011.执行操作后的变量值</li>
@@ -7031,7 +7113,7 @@
 <li>2652.倍数求和</li>
 <li>2656.K个元素的最大和</li>
 <li>2660.保龄球游戏的获胜者</li>
-<li>2665.计数器II</li>
+<li>2665.计数  器II</li>
 <li>2666.只允许一次函数调用</li>
 <li>2667.创建HelloWorld函数</li>
 <li>2670.找出不同元素数目差数组</li>
@@ -7044,7 +7126,6 @@
 <li>2704.相等还是不相等</li>
 <li>2706.购买两块巧克力</li>
 <li>2710.移除字符串中的尾随零</li>
-<li>2719.统计整数数目</li>
 <li>2739.总行驶距离</li>
 <li>2744.最大字符串配对数目</li>
 <li>2748.美丽下标对的数目</li>
@@ -7063,7 +7144,6 @@
 <li>2917.找出数组中的K-or值</li>
 <li>2923.找到冠军I</li>
 <li>2928.给小朋友们分糖果I</li>
-<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>2951.找出峰值</li>
 <li>2956.找到两个数组中的公共元素</li>
 <li>2960.统计已测试设备</li>
@@ -7072,19 +7152,19 @@
 <li>2974.最小数字游戏</li>
 <li>3038.相同分数的最大操作数目I</li>
 <li>3099.哈沙德数</li>
-<li>3117.划分数组得到最小的值之和</li>
+<li>3127.构造相同颜色的正方形</li>
 <li>3131.找出与数组相加的整数I</li>
-<li>3132.找出与数组相加的整数II</li>
 <li>3137.K周期字符串需要的最少操作次数</li>
-<li>3148.矩阵中的最大得分</li>
+<li>3142.判断矩阵是否满足条件</li>
+<li>3146.两个字符串的排列差</li>
 <li>3151.特殊数组I</li>
-<li>3152.特殊数组II</li>
+<li>3174.清除数字</li>
 <li>面试题01.02.判定是否互为字符重排</li>
 <li>面试题01.09.字符串轮转</li>
 <li>面试题02.01.移除重复节点</li>
 <li>面试题03.04.化栈为队</li>
 <li>面试题08.03.魔术索引</li>
-<li>面试题16.11.跳水板</li>
+<li>面试题16.11. 跳水板</li>
 <li>面试题17.10.主要元素</li>
 <li>面试题17.12.BiNode</li>
 <li>LCP06.拿硬币</li>
@@ -7116,7 +7196,7 @@
 <li>LCR174.寻找二叉搜索树中的目标节点</li>
 <li>LCR186.文物朝代判断</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="medium">Medium<a class="hash-link" aria-label="Medium的直接链接" title="Medium的直接链接" href="/docs/leetcode/#medium">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="medium">Medium<a href="#medium" class="hash-link" aria-label="Medium的直接链接" title="Medium的直接链接">​</a></h3>
 <ul>
 <li>2.两数相加</li>
 <li>3.无重复字符的最长子串</li>
@@ -7266,7 +7346,7 @@
 <li>324.摆动排序II</li>
 <li>328.奇偶链表</li>
 <li>331.验证二叉树的前序序列化</li>
-<li>334.递增的三元子序列</li>
+<li>334.递 增的三元子序列</li>
 <li>337.打家劫舍III</li>
 <li>341.扁平化嵌套列表迭代器</li>
 <li>343.整数拆分</li>
@@ -7315,14 +7395,14 @@
 <li>447.回旋镖的数量</li>
 <li>449.序列化和反序列化二叉搜索树</li>
 <li>450.删除二叉搜索树中的节点</li>
-<li>452.用最少数量的  箭引爆气球</li>
+<li>452.用最少数量的箭引爆气球</li>
 <li>453.最小操作次数使数组元素相等</li>
 <li>454.四数相加II</li>
 <li>456.132模式</li>
 <li>457.环形数组是否存在循环</li>
 <li>462.最小操作次数使数组元素相等II</li>
 <li>464.我能赢吗</li>
-<li>467.环绕字符串中唯一的子字符串</li>
+<li>467.环绕字符串中唯一的子字符 串</li>
 <li>468.验证IP地址</li>
 <li>470.用Rand7()实现Rand10()</li>
 <li>473.火柴拼正方形</li>
@@ -7376,7 +7456,7 @@
 <li>636.函数的独占时间</li>
 <li>638.大礼包</li>
 <li>640.求解方程</li>
-<li>641.设计  循环双端队列</li>
+<li>641.设计循环双端队列</li>
 <li>646.最长数对链</li>
 <li>647.回文子串</li>
 <li>648.单词替换</li>
@@ -7445,7 +7525,7 @@
 <li>822.翻转卡片游戏</li>
 <li>823.带因子的二叉树</li>
 <li>825.适龄的朋友</li>
-<li>826.安排工作以达到最大收益</li>
+<li>826.安排工作以达  到最大收益</li>
 <li>831.隐藏个人信息</li>
 <li>833.字符串中的查找与替换</li>
 <li>837.新21点</li>
@@ -7494,7 +7574,7 @@
 <li>954.二倍数对数组</li>
 <li>958.二叉树的完全性检验</li>
 <li>959.由斜杠划分区域</li>
-<li>967.连续  差相同的数字</li>
+<li>967.连续差相同的数字</li>
 <li>969.煎饼排序</li>
 <li>970.强整数</li>
 <li>971.翻转二叉树以匹配先序遍历</li>
@@ -7502,7 +7582,7 @@
 <li>974.和可被K整除的子数组</li>
 <li>978.最长湍流子数组</li>
 <li>979.在二叉树中分配硬币</li>
-<li>981.基于时间的键值存储</li>
+<li>981.基于  时间的键值存储</li>
 <li>983.最低票价</li>
 <li>990.等式方程的可满足性</li>
 <li>994.腐烂的橘子</li>
@@ -7526,6 +7606,7 @@
 <li>1031.两个非重叠子数组的最大和</li>
 <li>1033.移动石子直到连续</li>
 <li>1034.边界着色</li>
+<li>1035.不相交的线</li>
 <li>1038.从二叉搜索树到更大和树</li>
 <li>1039.多边形三角剖分的最低得分</li>
 <li>1040.移动石子直到连续II</li>
@@ -7568,6 +7649,7 @@
 <li>1170.比较字符串最小字母出现频次</li>
 <li>1171.从链表中删去总和值为零的连续节点</li>
 <li>1177.构建回文串检测</li>
+<li>1186.删除一次得到子数组最大和</li>
 <li>1190.反转每对括号间的子串</li>
 <li>1201.丑数III</li>
 <li>1202.交换字符串中的元素</li>
@@ -7643,7 +7725,7 @@
 <li>1638.统计只差一个字符的子串数目</li>
 <li>1641.统计字典序元音字符串的数目</li>
 <li>1653.使字符串平衡的最少删除次数</li>
-<li>1654.到家的最  少跳跃次数</li>
+<li>1654.到家的最少跳跃次数</li>
 <li>1657.确定两个字符串是否接近</li>
 <li>1658.将x减到0的最小操作数</li>
 <li>1663.具有给定数值的最小字符串</li>
@@ -7688,7 +7770,7 @@
 <li>1817.查找用户活跃分钟数</li>
 <li>1818.绝对差值和</li>
 <li>1823.找出游戏的获胜者</li>
-<li>1824. 最少侧跳次数</li>
+<li>1824.最少侧跳次数</li>
 <li>1828.统计一个圆中点的数目</li>
 <li>1833.雪糕的最大数量</li>
 <li>1838.最高频元素的频数</li>
@@ -7740,7 +7822,7 @@
 <li>2240.买钢笔和铅笔的方案数</li>
 <li>2244.完成所有任务需要的最少轮数</li>
 <li>2288.价格减免</li>
-<li>2300.咒语和药水的成功对数</li>
+<li>2300.咒语和药水的成功对  数</li>
 <li>2304.网格中的最小路径代价</li>
 <li>2316.统计无向图中无法互相到达点对数</li>
 <li>2336.无限集中的最小数字</li>
@@ -7785,7 +7867,7 @@
 <li>2560.打家劫舍IV</li>
 <li>2563.统计公平数对的数目</li>
 <li>2564.子字符串异或查询</li>
-<li>2571.将整数减少到零需要的最少操作数</li>
+<li>2571.将  整数减少到零需要的最少操作数</li>
 <li>2572.无平方子集计数</li>
 <li>2575.找出字符串的可整除数组</li>
 <li>2576.求出最多标记下标</li>
@@ -7831,7 +7913,8 @@
 <li>2700.两个对象之间的差异</li>
 <li>2705.精简对象</li>
 <li>2707.字符串中的额外字符</li>
-<li>2711.对角线上  不同值的数量差</li>
+<li>2708.一个小组的最大实力值</li>
+<li>2711.对角线上不同值的数量差</li>
 <li>2712.使所有字符相等的最小成本</li>
 <li>2731.移动机器人</li>
 <li>2734.执行子串操作后的字典序最小字符串</li>
@@ -7850,6 +7933,7 @@
 <li>2834.找出美丽数组的最小和</li>
 <li>2844.生成特殊数字的最少操作</li>
 <li>2850.将石头分散到网格图的最少移动次数</li>
+<li>2860.让所有学生保持开心的分组方法数</li>
 <li>2861.最大合金数</li>
 <li>2865.美丽塔I</li>
 <li>2866.美丽塔II</li>
@@ -7859,6 +7943,7 @@
 <li>2961.双模幂运算</li>
 <li>2981.找出出现至少三次的最长特殊子字符串I</li>
 <li>2982.找出出现至少三次的最长特殊子字符串II</li>
+<li>3007.价值和小于等于K的最大数字</li>
 <li>3011.判断一个数组是否可以变为有序</li>
 <li>3040.相同分数的最大操作数目II</li>
 <li>3067.在带权树网络中统计可连接服务器对数目</li>
@@ -7869,7 +7954,14 @@
 <li>3112.访问消失节点的最少时间</li>
 <li>3115.质数的最大距离</li>
 <li>3128.直角三角形</li>
+<li>3132.找出与数组相加的整数II</li>
+<li>3133.数组最后一个元素的最小值</li>
 <li>3143.正方形中的最多点数</li>
+<li>3144.分割字符频率相等的最少子字符串</li>
+<li>3148.矩阵中的最大得分</li>
+<li>3152.特殊数组II</li>
+<li>3153.所有数对中数位不同之和</li>
+<li>3176.求出最长好子序列I</li>
 <li>面试题01.05.一次编辑</li>
 <li>面试题01.07.旋转矩阵</li>
 <li>面试题01.08.零矩阵</li>
@@ -7915,7 +8007,7 @@
 <li>LCR184.设计自助结算系统</li>
 <li>LCR189.设计机械累加器</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_s992" id="hard">Hard<a class="hash-link" aria-label="Hard的直接链接" title="Hard的直接链接" href="/docs/leetcode/#hard">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_A997" id="hard">Hard<a href="#hard" class="hash-link" aria-label="Hard的直接链接" title="Hard的直接链接">​</a></h3>
 <ul>
 <li>4.寻找两个正序数组的中位数</li>
 <li>10.正则表达式匹配</li>
@@ -7933,7 +8025,7 @@
 <li>65.有效数字</li>
 <li>68.文本左右对齐</li>
 <li>76.最小覆盖子串</li>
-<li>84.柱状 图中最大的矩形</li>
+<li>84.柱状图中最大的矩形</li>
 <li>115.不同的子序列</li>
 <li>123.买卖股票的最佳时机III</li>
 <li>124.二叉树中的最大路径和</li>
@@ -7991,7 +8083,7 @@
 <li>630.课程表III</li>
 <li>639.解码方法II</li>
 <li>664.奇怪的打印机</li>
-<li>675.为高尔夫比赛 砍树</li>
+<li>675.为高尔夫比赛砍树</li>
 <li>679.24点游戏</li>
 <li>685.冗余连接II</li>
 <li>689.三个无重叠子数组的最大和</li>
@@ -8042,7 +8134,7 @@
 <li>992.K个不同整数的子数组</li>
 <li>995.K连续位的最小翻转次数</li>
 <li>1000.合并石头的最低成本</li>
-<li>1001.网格照明</li>
+<li>1001.  网格照明</li>
 <li>1012.至少有1位重复的数字</li>
 <li>1028.从先序遍历还原二叉树</li>
 <li>1032.字符流</li>
@@ -8143,13 +8235,13 @@
 <li>2532.过桥的时间</li>
 <li>2538.最大价值和与最小价值和的差值</li>
 <li>2547.拆分数组的最小代价</li>
-<li>2551.将珠子放入背包中</li>
+<li>2551.将珠子放入背  包中</li>
 <li>2552.统计上升四元组</li>
 <li>2561.重排水果</li>
 <li>2565.最少得分子序列</li>
 <li>2573.找出对应LCP矩阵的字符串</li>
 <li>2577.在网格图中访问一个格子的最少时间</li>
-<li>2581.统计可能 的树根数目</li>
+<li>2581.统计可能的树根数目</li>
 <li>2589.完成所有任务的最少时间</li>
 <li>2603.收集树中金币</li>
 <li>2612.最少翻转操作数</li>
@@ -8163,14 +8255,18 @@
 <li>2681.英雄的力量</li>
 <li>2699.修改图中的边权</li>
 <li>2713.矩阵中严格递增的单元格数</li>
+<li>2719.统计整数数目</li>
 <li>2736.最大和查询</li>
 <li>2742.给墙壁刷油漆</li>
 <li>2763.所有子数组中不平衡数字之和</li>
 <li>2813.子序列最大优雅度</li>
 <li>2867.统计树中的合法路径数目</li>
+<li>2940.找到Alice和Bob可以相遇的建筑</li>
 <li>2959.关闭分部的可行集合数目</li>
 <li>3072.将元素分配到两个数组中II</li>
 <li>3098.求出所有子序列的能量和</li>
+<li>3117.划分数组得到最小的值之和</li>
+<li>3154.到达第K级台阶的方案数</li>
 <li>面试题04.09.二叉搜索树序列</li>
 <li>面试题08.13.堆箱子</li>
 <li>面试题16.03.交点</li>
@@ -8181,6 +8277,6 @@
 <li>LCR114.火星词典</li>
 <li>LCR156.序列化与反序列化二叉树</li>
 <li>LCR170.交易逆序对的总数</li>
-</ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/算法/通用/素数筛"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">素数筛(prime)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/leetcode/1-100/两数之和"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">1.两数之和</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_s1Ka thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#介绍">介绍</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#顺序索引">顺序索引</a><ul><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1-100">1-100</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#101-200">101-200</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#201-300">201-300</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#301-400">301-400</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#401-500">401-500</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#501-600">501-600</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#601-700">601-700</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#701-800">701-800</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#801-900">801-900</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#901-1000">901-1000</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1001-1100">1001-1100</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1101-1200">1101-1200</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1201-1300">1201-1300</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1301-1400">1301-1400</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1401-1500">1401-1500</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1501-1600">1501-1600</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1601-1700">1601-1700</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1701-1800">1701-1800</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1801-1900">1801-1900</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#1901-2000">1901-2000</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2001-2100">2001-2100</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2101-2200">2101-2200</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2201-2300">2201-2300</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2301-2400">2301-2400</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2401-2500">2401-2500</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2501-2600">2501-2600</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2601-2700">2601-2700</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2701-2800">2701-2800</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2801-2900">2801-2900</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#2901-3000">2901-3000</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#3001-3100">3001-3100</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#3101-3200">3101-3200</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#面试题">面试题</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#lcp">LCP</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#lcr">LCR</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#标签索引">标签索引</a><ul><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#并查集">并查集</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#博弈">博弈</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#单调队列">单调队列</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#单调栈">单调栈</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#递归">递归</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#迭代器">迭代器</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#动态规划">动态规划</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#堆优先队列">堆（优先队列）</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#队列">队列</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#二叉树">二叉树</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#二叉搜索树">二叉搜索树</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#二分查找">二分查找</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#分治">分治</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#概率与统计">概率与统计</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#广度优先搜索">广度优先搜索</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#归并排序">归并排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#滚动哈希">滚动哈希</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#哈希表">哈希表</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#哈希函数">哈希函数</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#后缀数组">后缀数组</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#滑动窗口">滑动窗口</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#回溯">回溯</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#基数排序">基数排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#几何">几何</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#计数">计数</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#计数排序">计数排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#记忆化搜索">记忆化搜索</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#交互">交互</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#矩阵">矩阵</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#拒绝采样">拒绝采样</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#快速选择">快速选择</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#链表">链表</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#枚举">枚举</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#模拟">模拟</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#脑筋急转弯">脑筋急转弯</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#欧拉回路">欧拉回路</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#排序">排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#前缀和">前缀和</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#扫描线">扫描线</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#设计">设计</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#深度优先搜索">深度优先搜索</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#树">树</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#树状数组">树状数组</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#数据流">数据流</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#数论">数论</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#数学">数学</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#数组">数组</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#双向链表">双向链表</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#双指针">双指针</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#水塘抽样">水塘抽样</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#随机化">随机化</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#拓扑排序">拓扑排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#贪心">贪心</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#桶排序">桶排序</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#图">图</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#位运算">位运算</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#线段树">线段树</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#有序集合">有序集合</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#栈">栈</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#状态压缩">状态压缩</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#字典树">字 典树</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#字符串">字符串</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#字符串匹配">字符串匹配</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#组合数学">组合数学</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#最短路">最短路</a></li></ul></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#难度索引">难度索引</a><ul><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#easy">Easy</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#medium">Medium</a></li><li><a class="table-of-contents__link toc-highlight" href="/docs/leetcode/#hard">Hard</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Journal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">目录索引</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright"><a href="https://beian.miit.gov.cn/#/Integrated/index">浙ICP备19044645号-1</a> Copyright © 2024 BestLyg.</div></div></div></footer></div>
+</ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/算法/通用/素数筛"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">素数筛(prime)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/leetcode/1-100/两数之和"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">1.两数之和</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_uHA8 thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#介绍" class="table-of-contents__link toc-highlight">介绍</a></li><li><a href="#顺序索引" class="table-of-contents__link toc-highlight">顺序索引</a><ul><li><a href="#1-100" class="table-of-contents__link toc-highlight">1-100</a></li><li><a href="#101-200" class="table-of-contents__link toc-highlight">101-200</a></li><li><a href="#201-300" class="table-of-contents__link toc-highlight">201-300</a></li><li><a href="#301-400" class="table-of-contents__link toc-highlight">301-400</a></li><li><a href="#401-500" class="table-of-contents__link toc-highlight">401-500</a></li><li><a href="#501-600" class="table-of-contents__link toc-highlight">501-600</a></li><li><a href="#601-700" class="table-of-contents__link toc-highlight">601-700</a></li><li><a href="#701-800" class="table-of-contents__link toc-highlight">701-800</a></li><li><a href="#801-900" class="table-of-contents__link toc-highlight">801-900</a></li><li><a href="#901-1000" class="table-of-contents__link toc-highlight">901-1000</a></li><li><a href="#1001-1100" class="table-of-contents__link toc-highlight">1001-1100</a></li><li><a href="#1101-1200" class="table-of-contents__link toc-highlight">1101-1200</a></li><li><a href="#1201-1300" class="table-of-contents__link toc-highlight">1201-1300</a></li><li><a href="#1301-1400" class="table-of-contents__link toc-highlight">1301-1400</a></li><li><a href="#1401-1500" class="table-of-contents__link toc-highlight">1401-1500</a></li><li><a href="#1501-1600" class="table-of-contents__link toc-highlight">1501-1600</a></li><li><a href="#1601-1700" class="table-of-contents__link toc-highlight">1601-1700</a></li><li><a href="#1701-1800" class="table-of-contents__link toc-highlight">1701-1800</a></li><li><a href="#1801-1900" class="table-of-contents__link toc-highlight">1801-1900</a></li><li><a href="#1901-2000" class="table-of-contents__link toc-highlight">1901-2000</a></li><li><a href="#2001-2100" class="table-of-contents__link toc-highlight">2001-2100</a></li><li><a href="#2101-2200" class="table-of-contents__link toc-highlight">2101-2200</a></li><li><a href="#2201-2300" class="table-of-contents__link toc-highlight">2201-2300</a></li><li><a href="#2301-2400" class="table-of-contents__link toc-highlight">2301-2400</a></li><li><a href="#2401-2500" class="table-of-contents__link toc-highlight">2401-2500</a></li><li><a href="#2501-2600" class="table-of-contents__link toc-highlight">2501-2600</a></li><li><a href="#2601-2700" class="table-of-contents__link toc-highlight">2601-2700</a></li><li><a href="#2701-2800" class="table-of-contents__link toc-highlight">2701-2800</a></li><li><a href="#2801-2900" class="table-of-contents__link toc-highlight">2801-2900</a></li><li><a href="#2901-3000" class="table-of-contents__link toc-highlight">2901-3000</a></li><li><a href="#3001-3100" class="table-of-contents__link toc-highlight">3001-3100</a></li><li><a href="#3101-3200" class="table-of-contents__link toc-highlight">3101-3200</a></li><li><a href="#面试题" class="table-of-contents__link toc-highlight">面试题</a></li><li><a href="#lcp" class="table-of-contents__link toc-highlight">LCP</a></li><li><a href="#lcr" class="table-of-contents__link toc-highlight">LCR</a></li></ul></li><li><a href="#标签索引" class="table-of-contents__link toc-highlight">标签索引</a><ul><li><a href="#并查集" class="table-of-contents__link toc-highlight">并查集</a></li><li><a href="#博弈" class="table-of-contents__link toc-highlight">博弈</a></li><li><a href="#单调队列" class="table-of-contents__link toc-highlight">单调队列</a></li><li><a href="#单调栈" class="table-of-contents__link toc-highlight">单调栈</a></li><li><a href="#递归" class="table-of-contents__link toc-highlight">递归</a></li><li><a href="#迭代器" class="table-of-contents__link toc-highlight">迭代器</a></li><li><a href="#动态规划" class="table-of-contents__link toc-highlight">动态规划</a></li><li><a href="#堆优先队列" class="table-of-contents__link toc-highlight">堆（优先队列）</a></li><li><a href="#队列" class="table-of-contents__link toc-highlight">队列</a></li><li><a href="#二叉树" class="table-of-contents__link toc-highlight">二叉树</a></li><li><a href="#二叉搜索树" class="table-of-contents__link toc-highlight">二叉搜索树</a></li><li><a href="#二分查找" class="table-of-contents__link toc-highlight">二分查找</a></li><li><a href="#分治" class="table-of-contents__link toc-highlight">分治</a></li><li><a href="#概率与统计" class="table-of-contents__link toc-highlight">概率与统计</a></li><li><a href="#广度优先搜索" class="table-of-contents__link toc-highlight">广度优先搜索</a></li><li><a href="#归并排序" class="table-of-contents__link toc-highlight">归并排序</a></li><li><a href="#滚动哈希" class="table-of-contents__link toc-highlight">滚动哈希</a></li><li><a href="#哈希表" class="table-of-contents__link toc-highlight">哈希表</a></li><li><a href="#哈希函数" class="table-of-contents__link toc-highlight">哈希函数</a></li><li><a href="#后缀数组" class="table-of-contents__link toc-highlight">后缀数组</a></li><li><a href="#滑动窗口" class="table-of-contents__link toc-highlight">滑动窗口</a></li><li><a href="#回溯" class="table-of-contents__link toc-highlight">回溯</a></li><li><a href="#基数排序" class="table-of-contents__link toc-highlight">基数排序</a></li><li><a href="#几何" class="table-of-contents__link toc-highlight">几何</a></li><li><a href="#计数" class="table-of-contents__link toc-highlight">计数</a></li><li><a href="#计数排序" class="table-of-contents__link toc-highlight">计数排序</a></li><li><a href="#记忆化搜索" class="table-of-contents__link toc-highlight">记忆化搜索</a></li><li><a href="#交互" class="table-of-contents__link toc-highlight">交互</a></li><li><a href="#矩阵" class="table-of-contents__link toc-highlight">矩阵</a></li><li><a href="#拒绝采样" class="table-of-contents__link toc-highlight">拒绝采样</a></li><li><a href="#快速选择" class="table-of-contents__link toc-highlight">快速选择</a></li><li><a href="#链表" class="table-of-contents__link toc-highlight">链表</a></li><li><a href="#枚举" class="table-of-contents__link toc-highlight">枚举</a></li><li><a href="#模拟" class="table-of-contents__link toc-highlight">模拟</a></li><li><a href="#脑筋急转弯" class="table-of-contents__link toc-highlight">脑筋急转弯</a></li><li><a href="#欧拉回路" class="table-of-contents__link toc-highlight">欧拉回路</a></li><li><a href="#排序" class="table-of-contents__link toc-highlight">排序</a></li><li><a href="#前缀和" class="table-of-contents__link toc-highlight">前缀和</a></li><li><a href="#扫描线" class="table-of-contents__link toc-highlight">扫描线</a></li><li><a href="#设计" class="table-of-contents__link toc-highlight">设计</a></li><li><a href="#深度优先搜索" class="table-of-contents__link toc-highlight">深度优先搜索</a></li><li><a href="#树" class="table-of-contents__link toc-highlight">树</a></li><li><a href="#树状数组" class="table-of-contents__link toc-highlight">树状数组</a></li><li><a href="#数据流" class="table-of-contents__link toc-highlight">数据流</a></li><li><a href="#数论" class="table-of-contents__link toc-highlight">数论</a></li><li><a href="#数学" class="table-of-contents__link toc-highlight">数学</a></li><li><a href="#数组" class="table-of-contents__link toc-highlight">数组</a></li><li><a href="#双向链表" class="table-of-contents__link toc-highlight">双向链表</a></li><li><a href="#双指针" class="table-of-contents__link toc-highlight">双指针</a></li><li><a href="#水塘抽样" class="table-of-contents__link toc-highlight">水塘抽样</a></li><li><a href="#随机化" class="table-of-contents__link toc-highlight">随机化</a></li><li><a href="#拓扑排序" class="table-of-contents__link toc-highlight">拓扑排序</a></li><li><a href="#贪心" class="table-of-contents__link toc-highlight">贪心</a></li><li><a href="#桶排序" class="table-of-contents__link toc-highlight">桶排序</a></li><li><a href="#图" class="table-of-contents__link toc-highlight">图</a></li><li><a href="#位运算" class="table-of-contents__link toc-highlight">位运算</a></li><li><a href="#线段树" class="table-of-contents__link toc-highlight">线段树</a></li><li><a href="#有序集合" class="table-of-contents__link toc-highlight">有序集合</a></li><li><a href="#栈" class="table-of-contents__link toc-highlight">栈</a></li><li><a href="#状态压缩" class="table-of-contents__link toc-highlight">状态压缩</a></li><li><a href="#字典树" class="table-of-contents__link toc-highlight">字典树</a></li><li><a href="#字符串" class="table-of-contents__link toc-highlight">字符串</a></li><li><a href="#字符串匹配" class="table-of-contents__link toc-highlight">字符串匹配</a></li><li><a href="#组合数学" class="table-of-contents__link toc-highlight">组合数学</a></li><li><a href="#最短路" class="table-of-contents__link toc-highlight">最短路</a></li></ul></li><li><a href="#难度索引" class="table-of-contents__link toc-highlight">难度索引</a><ul><li><a href="#easy" class="table-of-contents__link toc-highlight">Easy</a></li><li><a href="#medium" class="table-of-contents__link toc-highlight">Medium</a></li><li><a href="#hard" class="table-of-contents__link toc-highlight">Hard</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Journal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">目录索引</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright"><a href="https://beian.miit.gov.cn/#/Integrated/index">浙ICP备19044645号-1</a> Copyright © 2024 BestLyg.</div></div></div></footer></div>
 </body>
 </html>

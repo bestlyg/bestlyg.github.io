@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bestlyg_site=self.webpackChunk_bestlyg_site||[]).push([[67472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5173\u4e8eBestLyg","permalink":"/blog/\u4e2a\u4eba\u4ecb\u7ecd","unlisted":false,"date":"2024-08-25T00:30:23.000Z"}]}')}}]);
